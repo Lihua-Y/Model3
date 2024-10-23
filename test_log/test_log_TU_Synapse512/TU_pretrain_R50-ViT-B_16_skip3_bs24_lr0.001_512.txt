@@ -1,0 +1,1183 @@
+[16:51:40.044] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[16:51:40.044] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[16:51:40.045] 148 test iterations per epoch
+[16:51:42.954] idx 0 case 0 mean_dice 0.746988 mean_hd95 6.119031
+[16:51:43.064] idx 1 case 1 mean_dice 0.907850 mean_hd95 2.000000
+[16:51:43.177] idx 2 case 10 mean_dice 0.965616 mean_hd95 2.000000
+[16:51:43.295] idx 3 case 100 mean_dice 0.977641 mean_hd95 1.414214
+[16:51:43.408] idx 4 case 101 mean_dice 0.960486 mean_hd95 3.605551
+[16:51:43.528] idx 5 case 102 mean_dice 0.971175 mean_hd95 2.000000
+[16:51:43.643] idx 6 case 103 mean_dice 0.973041 mean_hd95 1.414214
+[16:51:43.756] idx 7 case 104 mean_dice 0.972215 mean_hd95 2.000000
+[16:51:43.872] idx 8 case 105 mean_dice 0.975571 mean_hd95 2.000000
+[16:51:43.984] idx 9 case 106 mean_dice 0.957030 mean_hd95 2.000000
+[16:51:44.096] idx 10 case 107 mean_dice 0.967512 mean_hd95 1.414214
+[16:51:44.207] idx 11 case 108 mean_dice 0.963620 mean_hd95 4.024264
+[16:51:44.324] idx 12 case 109 mean_dice 0.980709 mean_hd95 2.000000
+[16:51:44.434] idx 13 case 11 mean_dice 0.879177 mean_hd95 2.165248
+[16:51:44.550] idx 14 case 110 mean_dice 0.969725 mean_hd95 2.000000
+[16:51:44.663] idx 15 case 111 mean_dice 0.964174 mean_hd95 2.236068
+[16:51:44.777] idx 16 case 112 mean_dice 0.927437 mean_hd95 8.117444
+[16:51:44.886] idx 17 case 113 mean_dice 0.910480 mean_hd95 7.211103
+[16:51:44.994] idx 18 case 114 mean_dice 0.952945 mean_hd95 2.000000
+[16:51:45.104] idx 19 case 115 mean_dice 0.962032 mean_hd95 2.000000
+[16:51:45.236] idx 20 case 116 mean_dice 0.962213 mean_hd95 2.000000
+[16:51:45.354] idx 21 case 117 mean_dice 0.975037 mean_hd95 2.000000
+[16:51:45.477] idx 22 case 118 mean_dice 0.972442 mean_hd95 2.236068
+[16:51:45.590] idx 23 case 119 mean_dice 0.949313 mean_hd95 3.162278
+[16:51:45.699] idx 24 case 12 mean_dice 0.942140 mean_hd95 2.000000
+[16:51:45.817] idx 25 case 120 mean_dice 0.841501 mean_hd95 13.453624
+[16:51:45.931] idx 26 case 121 mean_dice 0.958687 mean_hd95 2.236068
+[16:51:46.049] idx 27 case 122 mean_dice 0.967447 mean_hd95 1.041421
+[16:51:46.161] idx 28 case 123 mean_dice 0.917283 mean_hd95 3.162278
+[16:51:46.280] idx 29 case 124 mean_dice 0.888252 mean_hd95 1.414214
+[16:51:46.395] idx 30 case 125 mean_dice 0.937634 mean_hd95 1.000000
+[16:51:46.503] idx 31 case 126 mean_dice 0.906461 mean_hd95 2.212461
+[16:51:46.613] idx 32 case 127 mean_dice 0.889336 mean_hd95 2.236068
+[16:51:46.723] idx 33 case 128 mean_dice 0.923536 mean_hd95 3.000000
+[16:51:46.836] idx 34 case 129 mean_dice 0.954925 mean_hd95 2.000000
+[16:51:46.947] idx 35 case 13 mean_dice 0.932432 mean_hd95 1.000000
+[16:51:47.061] idx 36 case 130 mean_dice 0.905785 mean_hd95 2.094427
+[16:51:47.174] idx 37 case 131 mean_dice 0.935615 mean_hd95 1.472792
+[16:51:47.282] idx 38 case 132 mean_dice 0.867725 mean_hd95 1.000000
+[16:51:47.403] idx 39 case 133 mean_dice 0.943172 mean_hd95 3.000000
+[16:51:47.517] idx 40 case 134 mean_dice 0.912206 mean_hd95 1.414214
+[16:51:47.628] idx 41 case 135 mean_dice 0.907504 mean_hd95 1.414214
+[16:51:47.739] idx 42 case 136 mean_dice 0.949833 mean_hd95 1.289949
+[16:51:47.849] idx 43 case 137 mean_dice 0.939394 mean_hd95 1.000000
+[16:51:47.962] idx 44 case 138 mean_dice 0.911243 mean_hd95 1.000000
+[16:51:48.082] idx 45 case 139 mean_dice 0.928793 mean_hd95 1.000000
+[16:51:48.195] idx 46 case 14 mean_dice 0.933392 mean_hd95 5.089118
+[16:51:48.305] idx 47 case 140 mean_dice 0.936886 mean_hd95 1.000000
+[16:51:48.414] idx 48 case 141 mean_dice 0.922353 mean_hd95 1.000000
+[16:51:48.525] idx 49 case 142 mean_dice 0.872727 mean_hd95 1.000000
+[16:51:48.640] idx 50 case 143 mean_dice 0.883436 mean_hd95 1.207107
+[16:51:48.772] idx 51 case 144 mean_dice 0.921409 mean_hd95 1.414214
+[16:51:48.881] idx 52 case 145 mean_dice 0.937799 mean_hd95 1.000000
+[16:51:48.993] idx 53 case 146 mean_dice 0.948454 mean_hd95 1.000000
+[16:51:49.115] idx 54 case 147 mean_dice 0.943089 mean_hd95 1.000000
+[16:51:49.230] idx 55 case 15 mean_dice 0.927427 mean_hd95 5.000000
+[16:51:49.345] idx 56 case 16 mean_dice 0.935065 mean_hd95 4.472136
+[16:51:49.457] idx 57 case 17 mean_dice 0.927950 mean_hd95 4.920820
+[16:51:49.572] idx 58 case 18 mean_dice 0.964546 mean_hd95 2.000000
+[16:51:49.688] idx 59 case 19 mean_dice 0.960075 mean_hd95 2.000000
+[16:51:49.801] idx 60 case 2 mean_dice 0.902077 mean_hd95 1.165685
+[16:51:49.911] idx 61 case 20 mean_dice 0.969995 mean_hd95 1.000000
+[16:51:50.024] idx 62 case 21 mean_dice 0.974202 mean_hd95 1.414214
+[16:51:50.140] idx 63 case 22 mean_dice 0.957055 mean_hd95 1.414214
+[16:51:50.252] idx 64 case 23 mean_dice 0.954918 mean_hd95 2.000000
+[16:51:50.362] idx 65 case 24 mean_dice 0.961627 mean_hd95 1.414214
+[16:51:50.475] idx 66 case 25 mean_dice 0.962963 mean_hd95 1.414214
+[16:51:50.592] idx 67 case 26 mean_dice 0.944348 mean_hd95 2.000000
+[16:51:50.704] idx 68 case 27 mean_dice 0.974490 mean_hd95 2.000000
+[16:51:50.816] idx 69 case 28 mean_dice 0.967462 mean_hd95 1.414214
+[16:51:50.929] idx 70 case 29 mean_dice 0.966594 mean_hd95 1.414214
+[16:51:51.038] idx 71 case 3 mean_dice 0.898969 mean_hd95 1.414214
+[16:51:51.151] idx 72 case 30 mean_dice 0.946673 mean_hd95 2.000000
+[16:51:51.257] idx 73 case 31 mean_dice 0.954196 mean_hd95 2.236068
+[16:51:51.371] idx 74 case 32 mean_dice 0.972823 mean_hd95 1.414214
+[16:51:51.486] idx 75 case 33 mean_dice 0.933181 mean_hd95 2.000000
+[16:51:51.601] idx 76 case 34 mean_dice 0.967632 mean_hd95 2.000000
+[16:51:51.729] idx 77 case 35 mean_dice 0.976661 mean_hd95 1.414214
+[16:51:51.852] idx 78 case 36 mean_dice 0.965838 mean_hd95 3.605551
+[16:51:51.959] idx 79 case 37 mean_dice 0.903883 mean_hd95 2.000000
+[16:51:52.073] idx 80 case 38 mean_dice 0.962596 mean_hd95 2.000000
+[16:51:52.184] idx 81 case 39 mean_dice 0.914404 mean_hd95 3.000000
+[16:51:52.294] idx 82 case 4 mean_dice 0.778555 mean_hd95 3.162278
+[16:51:52.403] idx 83 case 40 mean_dice 0.978987 mean_hd95 1.414214
+[16:51:52.513] idx 84 case 41 mean_dice 0.938940 mean_hd95 6.226925
+[16:51:52.627] idx 85 case 42 mean_dice 0.932000 mean_hd95 5.466672
+[16:51:52.739] idx 86 case 43 mean_dice 0.939203 mean_hd95 4.000000
+[16:51:52.849] idx 87 case 44 mean_dice 0.948628 mean_hd95 2.000000
+[16:51:52.957] idx 88 case 45 mean_dice 0.950470 mean_hd95 2.000000
+[16:51:53.071] idx 89 case 46 mean_dice 0.967601 mean_hd95 3.000000
+[16:51:53.182] idx 90 case 47 mean_dice 0.960536 mean_hd95 4.188850
+[16:51:53.291] idx 91 case 48 mean_dice 0.960512 mean_hd95 2.000000
+[16:51:53.402] idx 92 case 49 mean_dice 0.953149 mean_hd95 4.000000
+[16:51:53.517] idx 93 case 5 mean_dice 0.915663 mean_hd95 2.236068
+[16:51:53.633] idx 94 case 50 mean_dice 0.971162 mean_hd95 1.414214
+[16:51:53.746] idx 95 case 51 mean_dice 0.978101 mean_hd95 1.414214
+[16:51:53.857] idx 96 case 52 mean_dice 0.972039 mean_hd95 1.000000
+[16:51:53.969] idx 97 case 53 mean_dice 0.918945 mean_hd95 2.828427
+[16:51:54.082] idx 98 case 54 mean_dice 0.960562 mean_hd95 1.414214
+[16:51:54.191] idx 99 case 55 mean_dice 0.937143 mean_hd95 1.414214
+[16:51:54.305] idx 100 case 56 mean_dice 0.945983 mean_hd95 3.760818
+[16:51:54.415] idx 101 case 57 mean_dice 0.934719 mean_hd95 5.000000
+[16:51:54.540] idx 102 case 58 mean_dice 0.969412 mean_hd95 1.414214
+[16:51:54.658] idx 103 case 59 mean_dice 0.957077 mean_hd95 2.828427
+[16:51:54.770] idx 104 case 6 mean_dice 0.920530 mean_hd95 1.414214
+[16:51:54.879] idx 105 case 60 mean_dice 0.969561 mean_hd95 3.000000
+[16:51:54.994] idx 106 case 61 mean_dice 0.967814 mean_hd95 2.680337
+[16:51:55.111] idx 107 case 62 mean_dice 0.944886 mean_hd95 2.828427
+[16:51:55.224] idx 108 case 63 mean_dice 0.945602 mean_hd95 2.443394
+[16:51:55.336] idx 109 case 64 mean_dice 0.966372 mean_hd95 2.236068
+[16:51:55.451] idx 110 case 65 mean_dice 0.948552 mean_hd95 2.236068
+[16:51:55.559] idx 111 case 66 mean_dice 0.899696 mean_hd95 4.472136
+[16:51:55.675] idx 112 case 67 mean_dice 0.927614 mean_hd95 2.828427
+[16:51:55.786] idx 113 case 68 mean_dice 0.961124 mean_hd95 4.709675
+[16:51:55.897] idx 114 case 69 mean_dice 0.957289 mean_hd95 2.680337
+[16:51:56.009] idx 115 case 7 mean_dice 0.854839 mean_hd95 1.414214
+[16:51:56.123] idx 116 case 70 mean_dice 0.972299 mean_hd95 1.414214
+[16:51:56.231] idx 117 case 71 mean_dice 0.970173 mean_hd95 1.414214
+[16:51:56.344] idx 118 case 72 mean_dice 0.972762 mean_hd95 2.000000
+[16:51:56.452] idx 119 case 73 mean_dice 0.970288 mean_hd95 1.000000
+[16:51:56.565] idx 120 case 74 mean_dice 0.969260 mean_hd95 2.000000
+[16:51:56.675] idx 121 case 75 mean_dice 0.957370 mean_hd95 1.041421
+[16:51:56.786] idx 122 case 76 mean_dice 0.952897 mean_hd95 2.000000
+[16:51:56.899] idx 123 case 77 mean_dice 0.979599 mean_hd95 1.000000
+[16:51:57.009] idx 124 case 78 mean_dice 0.972102 mean_hd95 2.000000
+[16:51:57.120] idx 125 case 79 mean_dice 0.958333 mean_hd95 2.000000
+[16:51:57.228] idx 126 case 8 mean_dice 0.898305 mean_hd95 1.000000
+[16:51:57.339] idx 127 case 80 mean_dice 0.956222 mean_hd95 2.000000
+[16:51:57.449] idx 128 case 81 mean_dice 0.954163 mean_hd95 2.236068
+[16:51:57.560] idx 129 case 82 mean_dice 0.965345 mean_hd95 2.000000
+[16:51:57.666] idx 130 case 83 mean_dice 0.953920 mean_hd95 2.236068
+[16:51:57.781] idx 131 case 84 mean_dice 0.960573 mean_hd95 2.000000
+[16:51:57.894] idx 132 case 85 mean_dice 0.979902 mean_hd95 1.414214
+[16:51:58.006] idx 133 case 86 mean_dice 0.971608 mean_hd95 2.000000
+[16:51:58.117] idx 134 case 87 mean_dice 0.976238 mean_hd95 1.414214
+[16:51:58.229] idx 135 case 88 mean_dice 0.954141 mean_hd95 1.853553
+[16:51:58.343] idx 136 case 89 mean_dice 0.972372 mean_hd95 2.000000
+[16:51:58.459] idx 137 case 9 mean_dice 0.958363 mean_hd95 2.106231
+[16:51:58.572] idx 138 case 90 mean_dice 0.963619 mean_hd95 2.000000
+[16:51:58.681] idx 139 case 91 mean_dice 0.971098 mean_hd95 2.000000
+[16:51:58.794] idx 140 case 92 mean_dice 0.966978 mean_hd95 2.000000
+[16:51:58.907] idx 141 case 93 mean_dice 0.977839 mean_hd95 1.414214
+[16:51:59.021] idx 142 case 94 mean_dice 0.975677 mean_hd95 2.000000
+[16:51:59.130] idx 143 case 95 mean_dice 0.920890 mean_hd95 13.712883
+[16:51:59.242] idx 144 case 96 mean_dice 0.923598 mean_hd95 11.503948
+[16:51:59.352] idx 145 case 97 mean_dice 0.966659 mean_hd95 2.000000
+[16:51:59.467] idx 146 case 98 mean_dice 0.970874 mean_hd95 1.414214
+[16:51:59.581] idx 147 case 99 mean_dice 0.970964 mean_hd95 2.236068
+[16:51:59.581] Mean class 1 mean_dice 0.944393 mean_hd95 2.445531
+[16:51:59.581] Testing performance in best val model: mean_dice : 0.944393 mean_hd95 : 2.445531
+[22:01:40.012] Namespace(Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, base_lr=0.001, batch_size=24, dataset='Synapse', deterministic=1, exp='TU_Synapse512', img_size=512, is_pretrain=True, is_savenii=True, list_dir='./lists/lists_Synapse', max_epochs=30, max_iterations=20000, n_skip=3, num_classes=2, seed=1234, test_save_dir='../predictions', vit_name='R50-ViT-B_16', vit_patches_size=16, volume_path='./data/Synapse/test_vol_h5', z_spacing=1)
+[22:01:40.012] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[22:02:13.908] Namespace(Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, base_lr=0.001, batch_size=24, dataset='Synapse', deterministic=1, exp='TU_Synapse512', img_size=512, is_pretrain=True, is_savenii=True, list_dir='./lists/lists_Synapse', max_epochs=30, max_iterations=20000, n_skip=3, num_classes=2, seed=1234, test_save_dir='../predictions', vit_name='R50-ViT-B_16', vit_patches_size=16, volume_path='./data/Synapse/test_vol_h5', z_spacing=1)
+[22:02:13.908] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[22:02:13.909] 120 test iterations per epoch
+[22:02:14.094] idx 0 case 0 mean_dice 0.674074 mean_hd95 279.406245
+[22:02:14.169] idx 1 case 1 mean_dice 0.741935 mean_hd95 8.949828
+[22:02:14.248] idx 2 case 10 mean_dice 0.909457 mean_hd95 1.414214
+[22:02:14.326] idx 3 case 100 mean_dice 0.552189 mean_hd95 13.992757
+[22:02:14.438] idx 4 case 101 mean_dice 0.679654 mean_hd95 178.400948
+[22:02:14.516] idx 5 case 102 mean_dice 0.846288 mean_hd95 7.000000
+[22:02:14.605] idx 6 case 103 mean_dice 0.689721 mean_hd95 7.810250
+[22:02:14.678] idx 7 case 104 mean_dice 0.842274 mean_hd95 5.000000
+[22:02:14.766] idx 8 case 105 mean_dice 0.892754 mean_hd95 5.356550
+[22:02:14.848] idx 9 case 106 mean_dice 0.837713 mean_hd95 8.514643
+[22:02:14.922] idx 10 case 107 mean_dice 0.635294 mean_hd95 4.000000
+[22:02:15.001] idx 11 case 108 mean_dice 0.936499 mean_hd95 2.236068
+[22:02:15.075] idx 12 case 109 mean_dice 0.400000 mean_hd95 65.425521
+[22:02:15.158] idx 13 case 11 mean_dice 0.725738 mean_hd95 3.000000
+[22:02:15.249] idx 14 case 110 mean_dice 0.828442 mean_hd95 8.062258
+[22:02:15.322] idx 15 case 111 mean_dice 0.877256 mean_hd95 1.941421
+[22:02:15.400] idx 16 case 112 mean_dice 0.903471 mean_hd95 347.168977
+[22:02:15.471] idx 17 case 113 mean_dice 0.787037 mean_hd95 2.961967
+[22:02:15.551] idx 18 case 114 mean_dice 0.878143 mean_hd95 2.236068
+[22:02:15.633] idx 19 case 115 mean_dice 0.878261 mean_hd95 1.000000
+[22:02:15.723] idx 20 case 116 mean_dice 0.876245 mean_hd95 231.417372
+[22:02:15.803] idx 21 case 117 mean_dice 0.137931 mean_hd95 11.063119
+[22:02:15.876] idx 22 case 118 mean_dice 0.082380 mean_hd95 252.045668
+[22:02:15.953] idx 23 case 119 mean_dice 0.757660 mean_hd95 13.000000
+[22:02:16.032] idx 24 case 12 mean_dice 0.902256 mean_hd95 1.000000
+[22:02:16.112] idx 25 case 13 mean_dice 0.904159 mean_hd95 2.236068
+[22:02:16.188] idx 26 case 14 mean_dice 0.756250 mean_hd95 5.242092
+[22:02:16.267] idx 27 case 15 mean_dice 0.082073 mean_hd95 18.136558
+[22:02:16.353] idx 28 case 16 mean_dice 0.615854 mean_hd95 6.044991
+[22:02:16.430] idx 29 case 17 mean_dice 0.758242 mean_hd95 2.828427
+[22:02:16.514] idx 30 case 18 mean_dice 0.789873 mean_hd95 4.000000
+[22:02:16.597] idx 31 case 19 mean_dice 0.777530 mean_hd95 13.061830
+[22:02:16.681] idx 32 case 2 mean_dice 0.628931 mean_hd95 31.144451
+[22:02:16.773] idx 33 case 20 mean_dice 0.362745 mean_hd95 11.153289
+[22:02:16.875] idx 34 case 21 mean_dice 0.933708 mean_hd95 2.000000
+[22:02:16.956] idx 35 case 22 mean_dice 0.950572 mean_hd95 3.121708
+[22:02:17.043] idx 36 case 23 mean_dice 0.925687 mean_hd95 7.071068
+[22:02:17.137] idx 37 case 24 mean_dice 0.902786 mean_hd95 2.828427
+[22:02:17.211] idx 38 case 25 mean_dice 0.913694 mean_hd95 5.000000
+[22:02:17.293] idx 39 case 26 mean_dice 0.908665 mean_hd95 7.423891
+[22:02:17.378] idx 40 case 27 mean_dice 0.947787 mean_hd95 2.828427
+[22:02:17.458] idx 41 case 28 mean_dice 0.934033 mean_hd95 2.879899
+[22:02:17.539] idx 42 case 29 mean_dice 0.920693 mean_hd95 4.894427
+[22:02:17.617] idx 43 case 3 mean_dice 0.627586 mean_hd95 9.273002
+[22:02:17.696] idx 44 case 30 mean_dice 0.913050 mean_hd95 8.062258
+[22:02:17.807] idx 45 case 31 mean_dice 0.931946 mean_hd95 4.188850
+[22:02:17.917] idx 46 case 32 mean_dice 0.932810 mean_hd95 3.450406
+[22:02:17.995] idx 47 case 33 mean_dice 0.834871 mean_hd95 8.000000
+[22:02:18.073] idx 48 case 34 mean_dice 0.918059 mean_hd95 5.079216
+[22:02:18.155] idx 49 case 35 mean_dice 0.923801 mean_hd95 4.000000
+[22:02:18.240] idx 50 case 36 mean_dice 0.950703 mean_hd95 2.828427
+[22:02:18.318] idx 51 case 37 mean_dice 0.837266 mean_hd95 6.082763
+[22:02:18.398] idx 52 case 38 mean_dice 0.838009 mean_hd95 8.218618
+[22:02:18.475] idx 53 case 39 mean_dice 0.917487 mean_hd95 3.605551
+[22:02:18.558] idx 54 case 4 mean_dice 0.791045 mean_hd95 2.236068
+[22:02:18.650] idx 55 case 40 mean_dice 0.889431 mean_hd95 9.904520
+[22:02:18.740] idx 56 case 41 mean_dice 0.941394 mean_hd95 4.123106
+[22:02:18.822] idx 57 case 42 mean_dice 0.926783 mean_hd95 5.000000
+[22:02:18.907] idx 58 case 43 mean_dice 0.919128 mean_hd95 4.000000
+[22:02:18.994] idx 59 case 44 mean_dice 0.896041 mean_hd95 10.037407
+[22:02:19.078] idx 60 case 45 mean_dice 0.868630 mean_hd95 5.000000
+[22:02:19.162] idx 61 case 46 mean_dice 0.944478 mean_hd95 4.000000
+[22:02:19.247] idx 62 case 47 mean_dice 0.859924 mean_hd95 5.723324
+[22:02:19.331] idx 63 case 48 mean_dice 0.914355 mean_hd95 7.000000
+[22:02:19.416] idx 64 case 49 mean_dice 0.955425 mean_hd95 3.000000
+[22:02:19.499] idx 65 case 5 mean_dice 0.758294 mean_hd95 4.000000
+[22:02:19.579] idx 66 case 50 mean_dice 0.932065 mean_hd95 2.974264
+[22:02:19.661] idx 67 case 51 mean_dice 0.930384 mean_hd95 5.830952
+[22:02:19.756] idx 68 case 52 mean_dice 0.954573 mean_hd95 3.000000
+[22:02:19.841] idx 69 case 53 mean_dice 0.911494 mean_hd95 13.527445
+[22:02:19.918] idx 70 case 54 mean_dice 0.929963 mean_hd95 2.862742
+[22:02:19.998] idx 71 case 55 mean_dice 0.900724 mean_hd95 151.238220
+[22:02:20.077] idx 72 case 56 mean_dice 0.891017 mean_hd95 8.031129
+[22:02:20.159] idx 73 case 57 mean_dice 0.942425 mean_hd95 2.236068
+[22:02:20.243] idx 74 case 58 mean_dice 0.967356 mean_hd95 2.828427
+[22:02:20.320] idx 75 case 59 mean_dice 0.942857 mean_hd95 1.000000
+[22:02:20.395] idx 76 case 6 mean_dice 0.702703 mean_hd95 5.000000
+[22:02:20.493] idx 77 case 60 mean_dice 0.940670 mean_hd95 2.236068
+[22:02:20.572] idx 78 case 61 mean_dice 0.947940 mean_hd95 4.000000
+[22:02:20.654] idx 79 case 62 mean_dice 0.951064 mean_hd95 5.000000
+[22:02:20.736] idx 80 case 63 mean_dice 0.904899 mean_hd95 5.000000
+[22:02:20.816] idx 81 case 64 mean_dice 0.942724 mean_hd95 4.123106
+[22:02:20.897] idx 82 case 65 mean_dice 0.968886 mean_hd95 2.828427
+[22:02:20.983] idx 83 case 66 mean_dice 0.960613 mean_hd95 4.000000
+[22:02:21.075] idx 84 case 67 mean_dice 0.687943 mean_hd95 6.000000
+[22:02:21.166] idx 85 case 68 mean_dice 0.910842 mean_hd95 4.472136
+[22:02:21.270] idx 86 case 69 mean_dice 0.926297 mean_hd95 3.162278
+[22:02:21.370] idx 87 case 7 mean_dice 0.622222 mean_hd95 3.317423
+[22:02:21.471] idx 88 case 70 mean_dice 0.909856 mean_hd95 5.890119
+[22:02:21.567] idx 89 case 71 mean_dice 0.946144 mean_hd95 2.236068
+[22:02:21.654] idx 90 case 72 mean_dice 0.934081 mean_hd95 6.000000
+[22:02:21.739] idx 91 case 73 mean_dice 0.960803 mean_hd95 2.236068
+[22:02:21.817] idx 92 case 74 mean_dice 0.947282 mean_hd95 3.605551
+[22:02:21.936] idx 93 case 75 mean_dice 0.953846 mean_hd95 5.000000
+[22:02:22.039] idx 94 case 76 mean_dice 0.942867 mean_hd95 2.236068
+[22:02:22.148] idx 95 case 77 mean_dice 0.928828 mean_hd95 7.000000
+[22:02:22.252] idx 96 case 78 mean_dice 0.910654 mean_hd95 5.830952
+[22:02:22.354] idx 97 case 79 mean_dice 0.962463 mean_hd95 2.991421
+[22:02:22.452] idx 98 case 8 mean_dice 0.881579 mean_hd95 1.000000
+[22:02:22.556] idx 99 case 80 mean_dice 0.921479 mean_hd95 3.605551
+[22:02:22.662] idx 100 case 81 mean_dice 0.936496 mean_hd95 257.532449
+[22:02:22.769] idx 101 case 82 mean_dice 0.923873 mean_hd95 7.071068
+[22:02:22.873] idx 102 case 83 mean_dice 0.944581 mean_hd95 5.000000
+[22:02:22.973] idx 103 case 84 mean_dice 0.933251 mean_hd95 2.828427
+[22:02:23.073] idx 104 case 85 mean_dice 0.930360 mean_hd95 7.211103
+[22:02:23.175] idx 105 case 86 mean_dice 0.945356 mean_hd95 3.605551
+[22:02:23.274] idx 106 case 87 mean_dice 0.862485 mean_hd95 7.300975
+[22:02:23.399] idx 107 case 88 mean_dice 0.932832 mean_hd95 5.830952
+[22:02:23.501] idx 108 case 89 mean_dice 0.874054 mean_hd95 8.544004
+[22:02:23.603] idx 109 case 9 mean_dice 0.844156 mean_hd95 3.000000
+[22:02:23.704] idx 110 case 90 mean_dice 0.941257 mean_hd95 7.000000
+[22:02:23.820] idx 111 case 91 mean_dice 0.797595 mean_hd95 10.318230
+[22:02:23.917] idx 112 case 92 mean_dice 0.840423 mean_hd95 11.313708
+[22:02:24.031] idx 113 case 93 mean_dice 0.796711 mean_hd95 15.811388
+[22:02:24.137] idx 114 case 94 mean_dice 0.859075 mean_hd95 10.440307
+[22:02:24.236] idx 115 case 95 mean_dice 0.780369 mean_hd95 10.917494
+[22:02:24.341] idx 116 case 96 mean_dice 0.911979 mean_hd95 7.197099
+[22:02:24.446] idx 117 case 97 mean_dice 0.823467 mean_hd95 115.268455
+[22:02:24.556] idx 118 case 98 mean_dice 0.900656 mean_hd95 9.041539
+[22:02:24.660] idx 119 case 99 mean_dice 0.197340 mean_hd95 43.509012
+[22:02:24.660] Mean class 1 mean_dice 0.837686 mean_hd95 21.334627
+[22:02:24.661] Testing performance in best val model: mean_dice : 0.837686 mean_hd95 : 21.334627
+[22:36:36.951] Namespace(Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, base_lr=0.001, batch_size=24, dataset='Synapse', deterministic=1, exp='TU_Synapse512', img_size=512, is_pretrain=True, is_savenii=True, list_dir='./lists/lists_Synapse', max_epochs=30, max_iterations=20000, n_skip=3, num_classes=2, seed=1234, test_save_dir='../predictions', vit_name='R50-ViT-B_16', vit_patches_size=16, volume_path='./data/Synapse/test_vol_h5', z_spacing=1)
+[22:36:36.952] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[22:36:36.953] 120 test iterations per epoch
+[22:36:37.136] idx 0 case 0 mean_dice 0.814229 mean_hd95 2.828427
+[22:36:37.227] idx 1 case 1 mean_dice 0.812500 mean_hd95 2.000000
+[22:36:37.318] idx 2 case 10 mean_dice 0.913828 mean_hd95 1.414214
+[22:36:37.414] idx 3 case 100 mean_dice 0.616047 mean_hd95 15.716041
+[22:36:37.517] idx 4 case 101 mean_dice 0.584104 mean_hd95 220.797414
+[22:36:37.634] idx 5 case 102 mean_dice 0.854393 mean_hd95 6.761250
+[22:36:37.749] idx 6 case 103 mean_dice 0.822193 mean_hd95 5.000000
+[22:36:37.854] idx 7 case 104 mean_dice 0.847059 mean_hd95 5.049510
+[22:36:37.947] idx 8 case 105 mean_dice 0.855311 mean_hd95 5.643270
+[22:36:38.037] idx 9 case 106 mean_dice 0.847507 mean_hd95 5.759798
+[22:36:38.131] idx 10 case 107 mean_dice 0.637555 mean_hd95 4.123106
+[22:36:38.241] idx 11 case 108 mean_dice 0.881529 mean_hd95 4.683282
+[22:36:38.340] idx 12 case 109 mean_dice 0.586416 mean_hd95 9.219544
+[22:36:38.430] idx 13 case 11 mean_dice 0.820513 mean_hd95 2.236068
+[22:36:38.524] idx 14 case 110 mean_dice 0.847921 mean_hd95 8.988854
+[22:36:38.620] idx 15 case 111 mean_dice 0.847458 mean_hd95 2.000000
+[22:36:38.713] idx 16 case 112 mean_dice 0.853998 mean_hd95 6.016228
+[22:36:38.804] idx 17 case 113 mean_dice 0.787330 mean_hd95 2.591483
+[22:36:38.896] idx 18 case 114 mean_dice 0.865497 mean_hd95 2.236068
+[22:36:38.994] idx 19 case 115 mean_dice 0.787004 mean_hd95 289.037091
+[22:36:39.103] idx 20 case 116 mean_dice 0.856749 mean_hd95 231.323179
+[22:36:39.168] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000
+[22:36:39.263] idx 22 case 118 mean_dice 0.066496 mean_hd95 253.399453
+[22:36:39.355] idx 23 case 119 mean_dice 0.747024 mean_hd95 5.949286
+[22:36:39.446] idx 24 case 12 mean_dice 0.865248 mean_hd95 45.143793
+[22:36:39.535] idx 25 case 13 mean_dice 0.900000 mean_hd95 2.236068
+[22:36:39.625] idx 26 case 14 mean_dice 0.625882 mean_hd95 11.644111
+[22:36:39.716] idx 27 case 15 mean_dice 0.322097 mean_hd95 12.842100
+[22:36:39.811] idx 28 case 16 mean_dice 0.685879 mean_hd95 5.000000
+[22:36:39.908] idx 29 case 17 mean_dice 0.782609 mean_hd95 2.000000
+[22:36:40.023] idx 30 case 18 mean_dice 0.798619 mean_hd95 4.123106
+[22:36:40.127] idx 31 case 19 mean_dice 0.818565 mean_hd95 11.276653
+[22:36:40.221] idx 32 case 2 mean_dice 0.844828 mean_hd95 1.000000
+[22:36:40.316] idx 33 case 20 mean_dice 0.495652 mean_hd95 7.884732
+[22:36:40.384] idx 34 case 21 mean_dice 0.924092 mean_hd95 211.411412
+[22:36:40.454] idx 35 case 22 mean_dice 0.946867 mean_hd95 3.162278
+[22:36:40.523] idx 36 case 23 mean_dice 0.954057 mean_hd95 2.828427
+[22:36:40.589] idx 37 case 24 mean_dice 0.871451 mean_hd95 4.024621
+[22:36:40.661] idx 38 case 25 mean_dice 0.930634 mean_hd95 3.162278
+[22:36:40.728] idx 39 case 26 mean_dice 0.853558 mean_hd95 12.806248
+[22:36:40.794] idx 40 case 27 mean_dice 0.956763 mean_hd95 2.236068
+[22:36:40.863] idx 41 case 28 mean_dice 0.929057 mean_hd95 3.000000
+[22:36:40.930] idx 42 case 29 mean_dice 0.937610 mean_hd95 3.605551
+[22:36:41.001] idx 43 case 3 mean_dice 0.704762 mean_hd95 7.749718
+[22:36:41.076] idx 44 case 30 mean_dice 0.901581 mean_hd95 7.829225
+[22:36:41.144] idx 45 case 31 mean_dice 0.933182 mean_hd95 4.000000
+[22:36:41.213] idx 46 case 32 mean_dice 0.933603 mean_hd95 4.472136
+[22:36:41.278] idx 47 case 33 mean_dice 0.840888 mean_hd95 8.062258
+[22:36:41.344] idx 48 case 34 mean_dice 0.900180 mean_hd95 5.665559
+[22:36:41.411] idx 49 case 35 mean_dice 0.919660 mean_hd95 4.000000
+[22:36:41.481] idx 50 case 36 mean_dice 0.949525 mean_hd95 2.974264
+[22:36:41.547] idx 51 case 37 mean_dice 0.855549 mean_hd95 5.873214
+[22:36:41.615] idx 52 case 38 mean_dice 0.863354 mean_hd95 6.525156
+[22:36:41.682] idx 53 case 39 mean_dice 0.903624 mean_hd95 5.830952
+[22:36:41.746] idx 54 case 4 mean_dice 0.766917 mean_hd95 38.868589
+[22:36:41.817] idx 55 case 40 mean_dice 0.891372 mean_hd95 11.180340
+[22:36:41.886] idx 56 case 41 mean_dice 0.944952 mean_hd95 3.605551
+[22:36:41.962] idx 57 case 42 mean_dice 0.943430 mean_hd95 3.105480
+[22:36:42.030] idx 58 case 43 mean_dice 0.911917 mean_hd95 5.000000
+[22:36:42.097] idx 59 case 44 mean_dice 0.891036 mean_hd95 10.000000
+[22:36:42.161] idx 60 case 45 mean_dice 0.885402 mean_hd95 5.000000
+[22:36:42.227] idx 61 case 46 mean_dice 0.936020 mean_hd95 7.000000
+[22:36:42.291] idx 62 case 47 mean_dice 0.851707 mean_hd95 4.472136
+[22:36:42.358] idx 63 case 48 mean_dice 0.935368 mean_hd95 5.000000
+[22:36:42.430] idx 64 case 49 mean_dice 0.950402 mean_hd95 2.828427
+[22:36:42.494] idx 65 case 5 mean_dice 0.890141 mean_hd95 2.000000
+[22:36:42.559] idx 66 case 50 mean_dice 0.933008 mean_hd95 4.242641
+[22:36:42.628] idx 67 case 51 mean_dice 0.929771 mean_hd95 6.387106
+[22:36:42.698] idx 68 case 52 mean_dice 0.955661 mean_hd95 4.000000
+[22:36:42.771] idx 69 case 53 mean_dice 0.911888 mean_hd95 13.000000
+[22:36:42.842] idx 70 case 54 mean_dice 0.938667 mean_hd95 2.059017
+[22:36:42.910] idx 71 case 55 mean_dice 0.926251 mean_hd95 5.000000
+[22:36:42.978] idx 72 case 56 mean_dice 0.876359 mean_hd95 8.062258
+[22:36:43.047] idx 73 case 57 mean_dice 0.944824 mean_hd95 2.236068
+[22:36:43.118] idx 74 case 58 mean_dice 0.962122 mean_hd95 3.000000
+[22:36:43.182] idx 75 case 59 mean_dice 0.919708 mean_hd95 1.000000
+[22:36:43.253] idx 76 case 6 mean_dice 0.696833 mean_hd95 5.000000
+[22:36:43.321] idx 77 case 60 mean_dice 0.928941 mean_hd95 3.162278
+[22:36:43.390] idx 78 case 61 mean_dice 0.942981 mean_hd95 4.000000
+[22:36:43.458] idx 79 case 62 mean_dice 0.944415 mean_hd95 5.000000
+[22:36:43.526] idx 80 case 63 mean_dice 0.902517 mean_hd95 5.601071
+[22:36:43.591] idx 81 case 64 mean_dice 0.935247 mean_hd95 3.000000
+[22:36:43.658] idx 82 case 65 mean_dice 0.973505 mean_hd95 2.000000
+[22:36:43.724] idx 83 case 66 mean_dice 0.951363 mean_hd95 5.099020
+[22:36:43.786] idx 84 case 67 mean_dice 0.730263 mean_hd95 3.605551
+[22:36:43.853] idx 85 case 68 mean_dice 0.916785 mean_hd95 4.000000
+[22:36:43.920] idx 86 case 69 mean_dice 0.920879 mean_hd95 3.162278
+[22:36:43.984] idx 87 case 7 mean_dice 0.723684 mean_hd95 2.236068
+[22:36:44.048] idx 88 case 70 mean_dice 0.879704 mean_hd95 7.615773
+[22:36:44.113] idx 89 case 71 mean_dice 0.943676 mean_hd95 2.236068
+[22:36:44.181] idx 90 case 72 mean_dice 0.923965 mean_hd95 7.534839
+[22:36:44.253] idx 91 case 73 mean_dice 0.953544 mean_hd95 4.194827
+[22:36:44.317] idx 92 case 74 mean_dice 0.936620 mean_hd95 5.294262
+[22:36:44.384] idx 93 case 75 mean_dice 0.953786 mean_hd95 5.385165
+[22:36:44.450] idx 94 case 76 mean_dice 0.942766 mean_hd95 2.236068
+[22:36:44.521] idx 95 case 77 mean_dice 0.924972 mean_hd95 7.280110
+[22:36:44.591] idx 96 case 78 mean_dice 0.916458 mean_hd95 6.300376
+[22:36:44.659] idx 97 case 79 mean_dice 0.954368 mean_hd95 3.162278
+[22:36:44.725] idx 98 case 8 mean_dice 0.846154 mean_hd95 1.414214
+[22:36:44.798] idx 99 case 80 mean_dice 0.914823 mean_hd95 4.472136
+[22:36:44.866] idx 100 case 81 mean_dice 0.942321 mean_hd95 7.876662
+[22:36:44.939] idx 101 case 82 mean_dice 0.924035 mean_hd95 8.000000
+[22:36:45.019] idx 102 case 83 mean_dice 0.937085 mean_hd95 13.030724
+[22:36:45.096] idx 103 case 84 mean_dice 0.923947 mean_hd95 2.236068
+[22:36:45.172] idx 104 case 85 mean_dice 0.919288 mean_hd95 6.956231
+[22:36:45.243] idx 105 case 86 mean_dice 0.946122 mean_hd95 5.000000
+[22:36:45.312] idx 106 case 87 mean_dice 0.842391 mean_hd95 7.313676
+[22:36:45.384] idx 107 case 88 mean_dice 0.928780 mean_hd95 6.403124
+[22:36:45.451] idx 108 case 89 mean_dice 0.876759 mean_hd95 5.830952
+[22:36:45.518] idx 109 case 9 mean_dice 0.876325 mean_hd95 3.000000
+[22:36:45.584] idx 110 case 90 mean_dice 0.936104 mean_hd95 5.044559
+[22:36:45.649] idx 111 case 91 mean_dice 0.751908 mean_hd95 11.700877
+[22:36:45.715] idx 112 case 92 mean_dice 0.818986 mean_hd95 10.283342
+[22:36:45.780] idx 113 case 93 mean_dice 0.813462 mean_hd95 14.946427
+[22:36:45.867] idx 114 case 94 mean_dice 0.855915 mean_hd95 11.193677
+[22:36:45.941] idx 115 case 95 mean_dice 0.877228 mean_hd95 7.280110
+[22:36:46.011] idx 116 case 96 mean_dice 0.884184 mean_hd95 8.294025
+[22:36:46.084] idx 117 case 97 mean_dice 0.853868 mean_hd95 10.751376
+[22:36:46.157] idx 118 case 98 mean_dice 0.902625 mean_hd95 89.635922
+[22:36:46.225] idx 119 case 99 mean_dice 0.496339 mean_hd95 18.044359
+[22:36:46.226] Mean class 1 mean_dice 0.848041 mean_hd95 16.733380
+[22:36:46.226] Testing performance in best val model: mean_dice : 0.848041 mean_hd95 : 16.733380
+[20:53:23.856] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[20:53:23.856] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[20:53:23.857] 120 test iterations per epoch
+[20:53:25.969] idx 0 case 0 mean_dice 0.814229 mean_hd95 2.828427
+[20:53:26.085] idx 1 case 1 mean_dice 0.812500 mean_hd95 2.000000
+[20:53:26.202] idx 2 case 10 mean_dice 0.913828 mean_hd95 1.414214
+[20:53:26.326] idx 3 case 100 mean_dice 0.616047 mean_hd95 15.716041
+[20:53:26.442] idx 4 case 101 mean_dice 0.584104 mean_hd95 220.797414
+[20:53:26.556] idx 5 case 102 mean_dice 0.854393 mean_hd95 6.761250
+[20:53:26.671] idx 6 case 103 mean_dice 0.822193 mean_hd95 5.000000
+[20:53:26.783] idx 7 case 104 mean_dice 0.847059 mean_hd95 5.049510
+[20:53:26.899] idx 8 case 105 mean_dice 0.855311 mean_hd95 5.643270
+[20:53:27.023] idx 9 case 106 mean_dice 0.847507 mean_hd95 5.759798
+[20:53:27.138] idx 10 case 107 mean_dice 0.637555 mean_hd95 4.123106
+[20:53:27.248] idx 11 case 108 mean_dice 0.881529 mean_hd95 4.683282
+[20:53:27.364] idx 12 case 109 mean_dice 0.586416 mean_hd95 9.219544
+[20:53:27.474] idx 13 case 11 mean_dice 0.820513 mean_hd95 2.236068
+[20:53:27.588] idx 14 case 110 mean_dice 0.847921 mean_hd95 8.988854
+[20:53:27.701] idx 15 case 111 mean_dice 0.847458 mean_hd95 2.000000
+[20:53:27.820] idx 16 case 112 mean_dice 0.854493 mean_hd95 6.000000
+[20:53:27.936] idx 17 case 113 mean_dice 0.787330 mean_hd95 2.591483
+[20:53:28.053] idx 18 case 114 mean_dice 0.865497 mean_hd95 2.236068
+[20:53:28.165] idx 19 case 115 mean_dice 0.787004 mean_hd95 289.037091
+[20:53:28.280] idx 20 case 116 mean_dice 0.856749 mean_hd95 231.323179
+[20:53:28.370] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000
+[20:54:42.891] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[20:54:42.892] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[20:54:42.892] 120 test iterations per epoch
+[20:54:45.123] idx 0 case 0 mean_dice 0.814229 mean_hd95 2.828427 iou 0.686667 pre 0.817460 recall 0.811024 mcc 0.814146
+[20:54:45.239] idx 1 case 1 mean_dice 0.812500 mean_hd95 2.000000 iou 0.684211 pre 0.812500 recall 0.812500 mcc 0.812443
+[20:54:45.357] idx 2 case 10 mean_dice 0.913828 mean_hd95 1.414214 iou 0.841328 pre 0.970213 recall 0.863636 mcc 0.915296
+[20:54:45.469] idx 3 case 100 mean_dice 0.616047 mean_hd95 15.716041 iou 0.445136 pre 0.606575 recall 0.625821 mcc 0.614758
+[20:54:45.581] idx 4 case 101 mean_dice 0.584104 mean_hd95 220.797414 iou 0.412533 pre 0.425876 recall 0.929412 mcc 0.628829
+[20:54:45.700] idx 5 case 102 mean_dice 0.854393 mean_hd95 6.761250 iou 0.745799 pre 0.953719 recall 0.773804 mcc 0.858009
+[20:54:45.816] idx 6 case 103 mean_dice 0.822193 mean_hd95 5.000000 iou 0.698071 pre 0.858577 recall 0.788768 mcc 0.822160
+[20:54:45.930] idx 7 case 104 mean_dice 0.847059 mean_hd95 5.049510 iou 0.734694 pre 0.921502 recall 0.783745 mcc 0.849478
+[20:54:46.041] idx 8 case 105 mean_dice 0.855311 mean_hd95 5.643270 iou 0.747200 pre 0.771901 recall 0.958932 mcc 0.860070
+[20:54:46.155] idx 9 case 106 mean_dice 0.847507 mean_hd95 5.759798 iou 0.735369 pre 0.752604 recall 0.969799 mcc 0.854148
+[20:54:46.267] idx 10 case 107 mean_dice 0.637555 mean_hd95 4.123106 iou 0.467949 pre 0.935897 recall 0.483444 mcc 0.672527
+[20:54:46.380] idx 11 case 108 mean_dice 0.881529 mean_hd95 4.683282 iou 0.788155 pre 0.976023 recall 0.803717 mcc 0.885360
+[20:54:46.505] idx 12 case 109 mean_dice 0.586416 mean_hd95 9.219544 iou 0.414844 pre 0.852327 recall 0.446970 mcc 0.616070
+[20:54:46.617] idx 13 case 11 mean_dice 0.820513 mean_hd95 2.236068 iou 0.695652 pre 0.918033 recall 0.741722 mcc 0.825094
+[20:54:46.731] idx 14 case 110 mean_dice 0.847921 mean_hd95 8.988854 iou 0.735992 pre 0.968750 recall 0.753891 mcc 0.854113
+[20:54:46.843] idx 15 case 111 mean_dice 0.847458 mean_hd95 2.000000 iou 0.735294 pre 0.945378 recall 0.767918 mcc 0.851896
+[20:54:46.959] idx 16 case 112 mean_dice 0.854493 mean_hd95 6.000000 iou 0.745951 pre 0.934094 recall 0.787393 mcc 0.857154
+[20:54:47.073] idx 17 case 113 mean_dice 0.787330 mean_hd95 2.591483 iou 0.649254 pre 0.861386 recall 0.725000 mcc 0.790169
+[20:54:47.190] idx 18 case 114 mean_dice 0.865497 mean_hd95 2.236068 iou 0.762887 pre 0.936709 recall 0.804348 mcc 0.867883
+[20:54:47.305] idx 19 case 115 mean_dice 0.787004 mean_hd95 289.037091 iou 0.648810 pre 0.712418 recall 0.879032 mcc 0.791245
+[20:54:47.418] idx 20 case 116 mean_dice 0.856749 mean_hd95 231.323179 iou 0.749398 pre 0.836022 recall 0.878531 mcc 0.856815
+[20:54:47.512] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[20:54:47.624] idx 22 case 118 mean_dice 0.066496 mean_hd95 253.399453 iou 0.034392 pre 0.302326 recall 0.037356 mcc 0.105885
+[20:54:47.736] idx 23 case 119 mean_dice 0.747024 mean_hd95 5.949286 iou 0.596200 pre 0.691460 recall 0.812298 mcc 0.749130
+[20:54:47.852] idx 24 case 12 mean_dice 0.865248 mean_hd95 45.143793 iou 0.762500 pre 0.782051 recall 0.968254 mcc 0.870153
+[20:54:47.964] idx 25 case 13 mean_dice 0.900000 mean_hd95 2.236068 iou 0.818182 pre 0.959016 recall 0.847826 mcc 0.901613
+[20:54:48.078] idx 26 case 14 mean_dice 0.627358 mean_hd95 11.644111 iou 0.457045 pre 0.481884 recall 0.898649 mcc 0.657822
+[20:54:48.193] idx 27 case 15 mean_dice 0.322097 mean_hd95 12.842100 iou 0.191964 pre 0.955556 recall 0.193694 mcc 0.429891
+[20:54:48.310] idx 28 case 16 mean_dice 0.685879 mean_hd95 5.000000 iou 0.521930 pre 0.991667 recall 0.524229 mcc 0.720861
+[20:54:48.428] idx 29 case 17 mean_dice 0.782609 mean_hd95 2.000000 iou 0.642857 pre 0.818182 recall 0.750000 mcc 0.783274
+[20:54:48.548] idx 30 case 18 mean_dice 0.798619 mean_hd95 4.123106 iou 0.664751 pre 0.854680 recall 0.749460 mcc 0.800015
+[20:54:48.663] idx 31 case 19 mean_dice 0.818565 mean_hd95 11.276653 iou 0.692857 pre 0.713235 recall 0.960396 mcc 0.826981
+[20:54:48.777] idx 32 case 2 mean_dice 0.844828 mean_hd95 1.000000 iou 0.731343 pre 0.742424 recall 0.980000 mcc 0.852950
+[20:54:48.891] idx 33 case 20 mean_dice 0.497817 mean_hd95 7.884732 iou 0.331395 pre 0.495652 recall 0.500000 mcc 0.497602
+[20:54:49.007] idx 34 case 21 mean_dice 0.923500 mean_hd95 211.411412 iou 0.857873 pre 0.922992 recall 0.924009 mcc 0.923234
+[20:54:49.124] idx 35 case 22 mean_dice 0.946867 mean_hd95 3.162278 iou 0.899095 pre 0.989162 recall 0.908040 mcc 0.947025
+[20:54:49.241] idx 36 case 23 mean_dice 0.954057 mean_hd95 2.828427 iou 0.912150 pre 0.975610 recall 0.933435 mcc 0.953842
+[20:54:49.356] idx 37 case 24 mean_dice 0.870868 mean_hd95 4.000000 iou 0.771272 pre 0.779833 recall 0.985965 mcc 0.876432
+[20:54:49.475] idx 38 case 25 mean_dice 0.930634 mean_hd95 3.162278 iou 0.870266 pre 0.889606 recall 0.975629 mcc 0.931281
+[20:54:49.591] idx 39 case 26 mean_dice 0.853558 mean_hd95 12.806248 iou 0.744528 pre 0.881966 recall 0.826923 mcc 0.852504
+[20:54:49.704] idx 40 case 27 mean_dice 0.956498 mean_hd95 2.236068 iou 0.916622 pre 0.966405 recall 0.946791 mcc 0.956247
+[20:54:49.822] idx 41 case 28 mean_dice 0.929057 mean_hd95 3.000000 iou 0.867512 pre 0.961719 recall 0.898540 mcc 0.929238
+[20:54:49.941] idx 42 case 29 mean_dice 0.937610 mean_hd95 3.605551 iou 0.882548 pre 0.928771 recall 0.946619 mcc 0.937314
+[20:54:50.052] idx 43 case 3 mean_dice 0.704762 mean_hd95 7.749718 iou 0.544118 pre 0.834586 recall 0.609890 mcc 0.713282
+[20:54:50.168] idx 44 case 30 mean_dice 0.901581 mean_hd95 7.829225 iou 0.820800 pre 0.862261 recall 0.944659 mcc 0.901307
+[20:54:50.282] idx 45 case 31 mean_dice 0.933182 mean_hd95 4.000000 iou 0.874735 pre 0.984468 recall 0.886975 mcc 0.934016
+[20:54:50.402] idx 46 case 32 mean_dice 0.933603 mean_hd95 4.472136 iou 0.875474 pre 0.944619 recall 0.922840 mcc 0.932843
+[20:54:50.516] idx 47 case 33 mean_dice 0.840888 mean_hd95 8.062258 iou 0.725459 pre 0.815978 recall 0.867366 mcc 0.840625
+[20:54:50.637] idx 48 case 34 mean_dice 0.900180 mean_hd95 5.665559 iou 0.818479 pre 0.867029 recall 0.935966 mcc 0.900101
+[20:54:50.754] idx 49 case 35 mean_dice 0.919660 mean_hd95 4.000000 iou 0.851269 pre 0.983325 recall 0.863737 mcc 0.920973
+[20:54:50.868] idx 50 case 36 mean_dice 0.949525 mean_hd95 2.974264 iou 0.903900 pre 0.947445 recall 0.951613 mcc 0.948860
+[20:54:50.990] idx 51 case 37 mean_dice 0.854658 mean_hd95 5.864762 iou 0.746204 pre 0.824940 recall 0.886598 mcc 0.854770
+[20:54:51.110] idx 52 case 38 mean_dice 0.863354 mean_hd95 6.525156 iou 0.759563 pre 0.767108 recall 0.987216 mcc 0.869478
+[20:54:51.227] idx 53 case 39 mean_dice 0.903624 mean_hd95 5.830952 iou 0.824191 pre 0.913721 recall 0.893747 mcc 0.902959
+[20:54:51.340] idx 54 case 4 mean_dice 0.766917 mean_hd95 38.868589 iou 0.621951 pre 0.662338 recall 0.910714 mcc 0.776606
+[20:54:51.452] idx 55 case 40 mean_dice 0.891187 mean_hd95 11.180340 iou 0.803731 pre 0.831981 recall 0.959465 mcc 0.892485
+[20:54:51.572] idx 56 case 41 mean_dice 0.944952 mean_hd95 3.605551 iou 0.895649 pre 0.902471 recall 0.991631 mcc 0.944943
+[20:54:51.691] idx 57 case 42 mean_dice 0.943430 mean_hd95 3.105480 iou 0.892918 pre 0.949590 recall 0.937350 mcc 0.942726
+[20:54:51.813] idx 58 case 43 mean_dice 0.911917 mean_hd95 5.000000 iou 0.838095 pre 0.856637 recall 0.974824 mcc 0.913480
+[20:54:51.927] idx 59 case 44 mean_dice 0.891304 mean_hd95 10.000000 iou 0.803922 pre 0.930513 recall 0.855267 mcc 0.890554
+[20:54:52.044] idx 60 case 45 mean_dice 0.885402 mean_hd95 5.000000 iou 0.794369 pre 0.802586 recall 0.987275 mcc 0.889733
+[20:54:52.160] idx 61 case 46 mean_dice 0.936020 mean_hd95 7.063961 iou 0.879735 pre 0.949677 recall 0.922750 mcc 0.934672
+[20:54:52.278] idx 62 case 47 mean_dice 0.851230 mean_hd95 4.472136 iou 0.740993 pre 0.820928 recall 0.883856 mcc 0.851306
+[20:54:52.395] idx 63 case 48 mean_dice 0.935368 mean_hd95 5.000000 iou 0.878584 pre 0.887411 recall 0.988805 mcc 0.935971
+[20:54:52.510] idx 64 case 49 mean_dice 0.950374 mean_hd95 2.828427 iou 0.905441 pre 0.916578 recall 0.986759 mcc 0.950686
+[20:54:52.624] idx 65 case 5 mean_dice 0.890141 mean_hd95 2.000000 iou 0.802030 pre 0.810256 recall 0.987500 mcc 0.894431
+[20:54:52.738] idx 66 case 50 mean_dice 0.933008 mean_hd95 4.242641 iou 0.874428 pre 0.896300 recall 0.972851 mcc 0.933328
+[20:54:52.857] idx 67 case 51 mean_dice 0.929960 mean_hd95 6.387106 iou 0.869088 pre 0.877723 recall 0.988808 mcc 0.930977
+[20:54:52.976] idx 68 case 52 mean_dice 0.955661 mean_hd95 4.000000 iou 0.915087 pre 0.953585 recall 0.957746 mcc 0.954792
+[20:54:53.099] idx 69 case 53 mean_dice 0.911888 mean_hd95 13.000000 iou 0.838046 pre 0.979153 recall 0.853270 mcc 0.912966
+[20:54:53.217] idx 70 case 54 mean_dice 0.938667 mean_hd95 2.059017 iou 0.884422 pre 0.909091 recall 0.970232 mcc 0.938947
+[20:54:53.330] idx 71 case 55 mean_dice 0.926251 mean_hd95 5.000000 iou 0.862632 pre 0.938349 recall 0.914460 mcc 0.925779
+[20:54:53.444] idx 72 case 56 mean_dice 0.876359 mean_hd95 8.062258 iou 0.779929 pre 0.819593 recall 0.941574 mcc 0.877670
+[20:54:53.561] idx 73 case 57 mean_dice 0.944824 mean_hd95 2.236068 iou 0.895418 pre 0.943832 recall 0.945818 mcc 0.944421
+[20:54:53.681] idx 74 case 58 mean_dice 0.962275 mean_hd95 3.000000 iou 0.927293 pre 0.959166 recall 0.965405 mcc 0.961786
+[20:54:53.793] idx 75 case 59 mean_dice 0.919708 mean_hd95 1.000000 iou 0.851351 pre 0.887324 recall 0.954545 mcc 0.920301
+[20:54:53.903] idx 76 case 6 mean_dice 0.696833 mean_hd95 5.000000 iou 0.534722 pre 0.747573 recall 0.652542 mcc 0.698317
+[20:54:54.016] idx 77 case 60 mean_dice 0.928941 mean_hd95 3.162278 iou 0.867311 pre 0.899727 recall 0.960117 mcc 0.929146
+[20:54:54.133] idx 78 case 61 mean_dice 0.942981 mean_hd95 4.000000 iou 0.892114 pre 0.935401 recall 0.950686 mcc 0.942251
+[20:54:54.245] idx 79 case 62 mean_dice 0.944292 mean_hd95 5.000000 iou 0.894462 pre 0.911207 recall 0.979869 mcc 0.944111
+[20:54:54.360] idx 80 case 63 mean_dice 0.902517 mean_hd95 5.601071 iou 0.822351 pre 0.855732 recall 0.954712 mcc 0.903240
+[20:54:54.474] idx 81 case 64 mean_dice 0.935413 mean_hd95 3.000000 iou 0.878664 pre 0.931924 recall 0.938929 mcc 0.934621
+[20:54:54.608] idx 82 case 65 mean_dice 0.973593 mean_hd95 2.000000 iou 0.948545 pre 0.966902 recall 0.980378 mcc 0.973053
+[20:54:54.725] idx 83 case 66 mean_dice 0.951236 mean_hd95 5.099020 iou 0.907006 pre 0.972146 recall 0.931206 mcc 0.950756
+[20:54:54.849] idx 84 case 67 mean_dice 0.730263 mean_hd95 3.605551 iou 0.575130 pre 0.932773 recall 0.600000 mcc 0.747975
+[20:54:54.966] idx 85 case 68 mean_dice 0.916785 mean_hd95 4.000000 iou 0.846356 pre 0.951292 recall 0.884695 mcc 0.916947
+[20:54:55.081] idx 86 case 69 mean_dice 0.920879 mean_hd95 3.162278 iou 0.853360 pre 0.948822 recall 0.894535 mcc 0.920593
+[20:54:55.194] idx 87 case 7 mean_dice 0.723684 mean_hd95 2.236068 iou 0.567010 pre 0.932203 recall 0.591398 mcc 0.742431
+[20:54:55.310] idx 88 case 70 mean_dice 0.879704 mean_hd95 7.615773 iou 0.785242 pre 0.972052 recall 0.803380 mcc 0.883006
+[20:54:55.425] idx 89 case 71 mean_dice 0.943676 mean_hd95 2.236068 iou 0.893359 pre 0.955601 recall 0.932045 mcc 0.943430
+[20:54:55.543] idx 90 case 72 mean_dice 0.924122 mean_hd95 7.555073 iou 0.858946 pre 0.930917 recall 0.917425 mcc 0.923284
+[20:54:55.661] idx 91 case 73 mean_dice 0.953544 mean_hd95 4.194827 iou 0.911212 pre 0.925345 recall 0.983514 mcc 0.952976
+[20:54:55.779] idx 92 case 74 mean_dice 0.936620 mean_hd95 5.294262 iou 0.880795 pre 0.969138 recall 0.906212 mcc 0.936569
+[20:54:55.896] idx 93 case 75 mean_dice 0.953786 mean_hd95 5.385165 iou 0.911655 pre 0.938535 recall 0.969541 mcc 0.953138
+[20:54:56.010] idx 94 case 76 mean_dice 0.942766 mean_hd95 2.236068 iou 0.891728 pre 0.935120 recall 0.950538 mcc 0.942489
+[20:54:56.128] idx 95 case 77 mean_dice 0.925165 mean_hd95 7.280110 iou 0.860751 pre 0.904820 recall 0.946446 mcc 0.923305
+[20:54:56.243] idx 96 case 78 mean_dice 0.916458 mean_hd95 6.300376 iou 0.845798 pre 0.943741 recall 0.890708 mcc 0.916142
+[20:54:56.361] idx 97 case 79 mean_dice 0.954368 mean_hd95 3.162278 iou 0.912720 pre 0.941273 recall 0.967833 mcc 0.953829
+[20:54:56.476] idx 98 case 8 mean_dice 0.846154 mean_hd95 1.414214 iou 0.733333 pre 0.835443 recall 0.857143 mcc 0.846178
+[20:54:56.591] idx 99 case 80 mean_dice 0.915152 mean_hd95 4.472136 iou 0.843575 pre 0.944931 recall 0.887192 mcc 0.915075
+[20:54:56.709] idx 100 case 81 mean_dice 0.942215 mean_hd95 7.867175 iou 0.890744 pre 0.976825 recall 0.909974 mcc 0.941825
+[20:54:56.822] idx 101 case 82 mean_dice 0.924035 mean_hd95 8.000000 iou 0.858796 pre 0.984302 recall 0.870722 mcc 0.924418
+[20:54:56.942] idx 102 case 83 mean_dice 0.937085 mean_hd95 13.030724 iou 0.881619 pre 0.959254 recall 0.915918 mcc 0.935660
+[20:54:57.060] idx 103 case 84 mean_dice 0.923947 mean_hd95 2.236068 iou 0.858645 pre 0.955166 recall 0.894705 mcc 0.923983
+[20:54:57.183] idx 104 case 85 mean_dice 0.919453 mean_hd95 6.970820 iou 0.850915 pre 0.859785 recall 0.988022 mcc 0.920862
+[20:54:57.296] idx 105 case 86 mean_dice 0.946122 mean_hd95 5.000000 iou 0.897754 pre 0.951951 recall 0.940365 mcc 0.945632
+[20:54:57.409] idx 106 case 87 mean_dice 0.842391 mean_hd95 7.313676 iou 0.727700 pre 0.776109 recall 0.921053 mcc 0.844735
+[20:54:57.523] idx 107 case 88 mean_dice 0.928641 mean_hd95 6.418378 iou 0.866788 pre 0.964464 recall 0.895384 mcc 0.927456
+[20:54:57.638] idx 108 case 89 mean_dice 0.877075 mean_hd95 5.830952 iou 0.781062 pre 0.982976 recall 0.791772 mcc 0.881445
+[20:54:57.755] idx 109 case 9 mean_dice 0.876325 mean_hd95 3.000000 iou 0.779874 pre 0.888889 recall 0.864111 mcc 0.876279
+[20:54:57.871] idx 110 case 90 mean_dice 0.936104 mean_hd95 5.044559 iou 0.879883 pre 0.914721 recall 0.958511 mcc 0.935654
+[20:54:57.983] idx 111 case 91 mean_dice 0.751622 mean_hd95 11.700877 iou 0.602078 pre 0.823579 recall 0.691228 mcc 0.753293
+[20:54:58.101] idx 112 case 92 mean_dice 0.818492 mean_hd95 10.283342 iou 0.692753 pre 0.693697 recall 0.998039 mcc 0.830616
+[20:54:58.218] idx 113 case 93 mean_dice 0.813462 mean_hd95 14.946427 iou 0.685576 pre 0.709114 recall 0.953820 mcc 0.820621
+[20:54:58.338] idx 114 case 94 mean_dice 0.855915 mean_hd95 11.193677 iou 0.748121 pre 0.875756 recall 0.836953 mcc 0.853009
+[20:54:58.456] idx 115 case 95 mean_dice 0.877228 mean_hd95 7.280110 iou 0.781306 pre 0.863279 recall 0.891636 mcc 0.875923
+[20:54:58.578] idx 116 case 96 mean_dice 0.884163 mean_hd95 8.270118 iou 0.792376 pre 0.813353 recall 0.968477 mcc 0.885195
+[20:54:58.694] idx 117 case 97 mean_dice 0.853868 mean_hd95 10.751376 iou 0.745000 pre 0.942121 recall 0.780734 mcc 0.855211
+[20:54:58.810] idx 118 case 98 mean_dice 0.902710 mean_hd95 89.627005 iou 0.822672 pre 0.891139 recall 0.914585 mcc 0.900776
+[20:54:58.930] idx 119 case 99 mean_dice 0.496339 mean_hd95 18.044359 iou 0.330087 pre 0.938873 recall 0.337337 mcc 0.560350
+[20:54:58.930] Mean class 1 mean_dice 0.848057 mean_hd95 16.733567 iou 0.758181 pre 0.866922 recall 0.851779 mcc 0.852704
+[20:54:58.930] Testing performance in best val model: mean_dice : 0.848057 mean_hd95 : 16.733567 iou : 0.758181 pre : 0.866922 recall : 0.851779 mcc : 0.852704
+[02:42:38.253] Namespace(Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, base_lr=0.001, batch_size=24, dataset='Synapse', deterministic=1, exp='TU_Synapse512', img_size=512, is_pretrain=True, is_savenii=True, list_dir='./lists/lists_Synapse', max_epochs=30, max_iterations=20000, n_skip=3, num_classes=2, seed=1234, test_save_dir='../predictions', vit_name='R50-ViT-B_16', vit_patches_size=16, volume_path='./data/Synapse/test_vol_h5', z_spacing=1)
+[02:42:38.253] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[02:42:38.254] 120 test iterations per epoch
+[03:09:09.311] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[03:09:09.311] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[03:09:09.312] 120 test iterations per epoch
+[03:09:11.314] idx 0 case 0 mean_dice 0.766129 mean_hd95 2.769191 iou 0.620915 pre 0.785124 recall 0.748031 mcc 0.766243
+[03:09:11.468] idx 1 case 1 mean_dice 0.670103 mean_hd95 9.882932 iou 0.503876 pre 0.570175 recall 0.812500 mcc 0.680525
+[03:09:11.622] idx 2 case 10 mean_dice 0.881988 mean_hd95 2.000000 iou 0.788889 pre 0.972603 recall 0.806818 mcc 0.885739
+[03:09:11.777] idx 3 case 100 mean_dice 0.582424 mean_hd95 13.000000 iou 0.410859 pre 0.613059 recall 0.554705 mcc 0.581768
+[03:09:11.941] idx 4 case 101 mean_dice 0.842105 mean_hd95 2.000000 iou 0.727273 pre 0.837209 recall 0.847059 mcc 0.842017
+[03:09:12.095] idx 5 case 102 mean_dice 0.737965 mean_hd95 12.000000 iou 0.584742 pre 0.950669 recall 0.603040 mcc 0.755634
+[03:09:12.240] idx 6 case 103 mean_dice 0.739310 mean_hd95 6.000000 iou 0.586433 pre 0.818737 recall 0.673931 mcc 0.741762
+[03:09:12.397] idx 7 case 104 mean_dice 0.703196 mean_hd95 10.000000 iou 0.542254 pre 0.948276 recall 0.558781 mcc 0.727429
+[03:09:12.552] idx 8 case 105 mean_dice 0.910373 mean_hd95 3.790569 iou 0.835490 pre 0.893281 recall 0.928131 mcc 0.910370
+[03:09:12.710] idx 9 case 106 mean_dice 0.904290 mean_hd95 2.295304 iou 0.825301 pre 0.889610 recall 0.919463 mcc 0.904303
+[03:09:12.861] idx 10 case 107 mean_dice 0.566210 mean_hd95 5.839404 iou 0.394904 pre 0.911765 recall 0.410596 mcc 0.611724
+[03:09:13.006] idx 11 case 108 mean_dice 0.919664 mean_hd95 4.123106 iou 0.851276 pre 0.950434 recall 0.890825 mcc 0.919893
+[03:09:13.139] idx 12 case 109 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[03:09:13.285] idx 13 case 11 mean_dice 0.856089 mean_hd95 2.000000 iou 0.748387 pre 0.966667 recall 0.768212 mcc 0.861677
+[03:09:13.438] idx 14 case 110 mean_dice 0.832702 mean_hd95 150.416243 iou 0.713358 pre 0.938950 recall 0.748054 mcc 0.837535
+[03:09:13.582] idx 15 case 111 mean_dice 0.868762 mean_hd95 2.000000 iou 0.767974 pre 0.947581 recall 0.802048 mcc 0.871654
+[03:09:13.733] idx 16 case 112 mean_dice 0.919578 mean_hd95 4.000000 iou 0.851129 pre 0.956171 recall 0.885684 mcc 0.919980
+[03:09:13.894] idx 17 case 113 mean_dice 0.568966 mean_hd95 100.094906 iou 0.397590 pre 0.589286 recall 0.550000 mcc 0.569114
+[03:09:14.055] idx 18 case 114 mean_dice 0.873294 mean_hd95 2.828427 iou 0.775087 pre 0.945148 recall 0.811594 mcc 0.875710
+[03:09:14.200] idx 19 case 115 mean_dice 0.789062 mean_hd95 288.447407 iou 0.651613 pre 0.765152 recall 0.814516 mcc 0.789345
+[03:09:14.355] idx 20 case 116 mean_dice 0.878187 mean_hd95 3.605551 iou 0.782828 pre 0.880682 recall 0.875706 mcc 0.878026
+[03:09:14.483] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[03:09:14.633] idx 22 case 118 mean_dice 0.087179 mean_hd95 255.519324 iou 0.045576 pre 0.404762 recall 0.048851 mcc 0.140259
+[03:09:14.788] idx 23 case 119 mean_dice 0.817910 mean_hd95 4.123106 iou 0.691919 pre 0.759003 recall 0.886731 mcc 0.820159
+[03:09:14.940] idx 24 case 12 mean_dice 0.909091 mean_hd95 2.000000 iou 0.833333 pre 0.869565 recall 0.952381 mcc 0.910009
+[03:09:15.093] idx 25 case 13 mean_dice 0.912727 mean_hd95 1.414214 iou 0.839465 pre 0.916058 recall 0.909420 mcc 0.912642
+[03:09:15.240] idx 26 case 14 mean_dice 0.599532 mean_hd95 12.083046 iou 0.428094 pre 0.458781 recall 0.864865 mcc 0.629645
+[03:09:15.393] idx 27 case 15 mean_dice 0.699438 mean_hd95 9.969772 iou 0.537797 pre 0.929104 recall 0.560811 mcc 0.721503
+[03:09:15.542] idx 28 case 16 mean_dice 0.594427 mean_hd95 7.944936 iou 0.422908 pre 1.000000 recall 0.422907 mcc 0.650151
+[03:09:15.690] idx 29 case 17 mean_dice 0.843750 mean_hd95 2.000000 iou 0.729730 pre 0.843750 recall 0.843750 mcc 0.843693
+[03:09:15.853] idx 30 case 18 mean_dice 0.860898 mean_hd95 4.000000 iou 0.755769 pre 0.873333 recall 0.848812 mcc 0.860743
+[03:09:15.996] idx 31 case 19 mean_dice 0.818658 mean_hd95 11.479799 iou 0.692990 pre 0.721477 recall 0.946095 mcc 0.825525
+[03:09:16.141] idx 32 case 2 mean_dice 0.793651 mean_hd95 1.414214 iou 0.657895 pre 0.657895 recall 1.000000 mcc 0.811067
+[03:09:16.292] idx 33 case 20 mean_dice 0.409836 mean_hd95 7.481508 iou 0.257732 pre 0.384615 recall 0.438596 mcc 0.410447
+[03:09:16.451] idx 34 case 21 mean_dice 0.929561 mean_hd95 2.000000 iou 0.868393 pre 0.976942 recall 0.886564 mcc 0.930430
+[03:09:16.598] idx 35 case 22 mean_dice 0.955030 mean_hd95 3.000000 iou 0.913930 pre 0.983751 recall 0.927938 mcc 0.954820
+[03:09:16.754] idx 36 case 23 mean_dice 0.940352 mean_hd95 5.156249 iou 0.887420 pre 0.986146 recall 0.898623 mcc 0.940814
+[03:09:16.901] idx 37 case 24 mean_dice 0.904155 mean_hd95 3.605551 iou 0.825076 pre 0.858947 recall 0.954386 mcc 0.905088
+[03:09:17.049] idx 38 case 25 mean_dice 0.905303 mean_hd95 5.000000 iou 0.826990 pre 0.873538 recall 0.939465 mcc 0.905429
+[03:09:17.202] idx 39 case 26 mean_dice 0.929373 mean_hd95 4.472136 iou 0.868065 pre 0.886656 recall 0.976415 mcc 0.929690
+[03:09:17.363] idx 40 case 27 mean_dice 0.955315 mean_hd95 2.236068 iou 0.914453 pre 0.966854 recall 0.944048 mcc 0.955075
+[03:09:17.522] idx 41 case 28 mean_dice 0.917576 mean_hd95 4.000000 iou 0.847705 pre 0.947164 recall 0.889781 mcc 0.917609
+[03:09:17.677] idx 42 case 29 mean_dice 0.947857 mean_hd95 2.709955 iou 0.900883 pre 0.951254 recall 0.944484 mcc 0.947583
+[03:09:17.823] idx 43 case 3 mean_dice 0.664452 mean_hd95 9.055385 iou 0.497512 pre 0.840336 recall 0.549451 mcc 0.679331
+[03:09:17.974] idx 44 case 30 mean_dice 0.931096 mean_hd95 6.000000 iou 0.871075 pre 0.933959 recall 0.928250 mcc 0.930276
+[03:09:18.120] idx 45 case 31 mean_dice 0.941340 mean_hd95 3.605551 iou 0.889181 pre 0.973548 recall 0.911195 mcc 0.941458
+[03:09:18.269] idx 46 case 32 mean_dice 0.938757 mean_hd95 4.000000 iou 0.884582 pre 0.944600 recall 0.932985 mcc 0.938010
+[03:09:18.418] idx 47 case 33 mean_dice 0.854651 mean_hd95 8.015564 iou 0.746193 pre 0.868110 recall 0.841603 mcc 0.854180
+[03:09:18.567] idx 48 case 34 mean_dice 0.929679 mean_hd95 4.000000 iou 0.868599 pre 0.901705 recall 0.959445 mcc 0.929611
+[03:09:18.730] idx 49 case 35 mean_dice 0.909091 mean_hd95 5.830952 iou 0.833333 pre 0.992126 recall 0.838881 mcc 0.911619
+[03:09:18.887] idx 50 case 36 mean_dice 0.939136 mean_hd95 3.605551 iou 0.885255 pre 0.958193 recall 0.920821 mcc 0.938540
+[03:09:19.053] idx 51 case 37 mean_dice 0.834129 mean_hd95 7.000000 iou 0.715455 pre 0.776667 recall 0.900773 mcc 0.835905
+[03:09:19.212] idx 52 case 38 mean_dice 0.857055 mean_hd95 7.000000 iou 0.749865 pre 0.758056 recall 0.985795 mcc 0.863669
+[03:09:19.370] idx 53 case 39 mean_dice 0.923351 mean_hd95 3.000000 iou 0.857616 pre 0.925000 recall 0.921708 mcc 0.922774
+[03:09:19.538] idx 54 case 4 mean_dice 0.811594 mean_hd95 2.236068 iou 0.682927 pre 0.682927 recall 1.000000 mcc 0.826353
+[03:09:19.695] idx 55 case 40 mean_dice 0.866597 mean_hd95 9.262583 iou 0.764597 pre 0.817787 recall 0.921604 mcc 0.866949
+[03:09:19.857] idx 56 case 41 mean_dice 0.952804 mean_hd95 3.162278 iou 0.909862 pre 0.922739 recall 0.984895 mcc 0.952401
+[03:09:20.019] idx 57 case 42 mean_dice 0.920486 mean_hd95 6.000000 iou 0.852686 pre 0.959064 recall 0.884892 mcc 0.920267
+[03:09:20.172] idx 58 case 43 mean_dice 0.904281 mean_hd95 7.810250 iou 0.825285 pre 0.865562 recall 0.946626 mcc 0.904814
+[03:09:20.330] idx 59 case 44 mean_dice 0.874227 mean_hd95 9.704048 iou 0.776557 pre 0.937500 recall 0.818954 mcc 0.874516
+[03:09:20.484] idx 60 case 45 mean_dice 0.866416 mean_hd95 5.425918 iou 0.764315 pre 0.778529 recall 0.976670 mcc 0.871495
+[03:09:20.637] idx 61 case 46 mean_dice 0.938252 mean_hd95 5.385165 iou 0.883686 pre 0.971975 recall 0.906791 mcc 0.937473
+[03:09:20.787] idx 62 case 47 mean_dice 0.869180 mean_hd95 5.000000 iou 0.768627 pre 0.831389 recall 0.910569 mcc 0.869634
+[03:09:20.933] idx 63 case 48 mean_dice 0.931258 mean_hd95 5.099020 iou 0.871359 pre 0.875398 recall 0.994732 mcc 0.932348
+[03:09:21.086] idx 64 case 49 mean_dice 0.951613 mean_hd95 2.982843 iou 0.907692 pre 0.920387 recall 0.985032 mcc 0.951835
+[03:09:21.235] idx 65 case 5 mean_dice 0.811828 mean_hd95 4.000000 iou 0.683258 pre 0.712264 recall 0.943750 mcc 0.819757
+[03:09:21.388] idx 66 case 50 mean_dice 0.937500 mean_hd95 3.162278 iou 0.882353 pre 0.902197 recall 0.975679 mcc 0.937787
+[03:09:21.549] idx 67 case 51 mean_dice 0.949554 mean_hd95 3.605551 iou 0.903953 pre 0.917001 recall 0.984503 mcc 0.949696
+[03:09:21.697] idx 68 case 52 mean_dice 0.957591 mean_hd95 2.828427 iou 0.918633 pre 0.950020 recall 0.965285 mcc 0.956785
+[03:09:21.851] idx 69 case 53 mean_dice 0.916716 mean_hd95 13.654426 iou 0.846239 pre 0.983664 recall 0.858301 mcc 0.917827
+[03:09:21.998] idx 70 case 54 mean_dice 0.936216 mean_hd95 2.236068 iou 0.880081 pre 0.918346 recall 0.954796 mcc 0.936169
+[03:09:22.146] idx 71 case 55 mean_dice 0.895885 mean_hd95 6.708204 iou 0.811406 pre 0.978877 recall 0.825866 mcc 0.898446
+[03:09:22.296] idx 72 case 56 mean_dice 0.880114 mean_hd95 10.009975 iou 0.785895 pre 0.817846 recall 0.952645 mcc 0.881902
+[03:09:22.452] idx 73 case 57 mean_dice 0.953959 mean_hd95 2.000000 iou 0.911972 pre 0.954211 recall 0.953709 mcc 0.953623
+[03:09:22.606] idx 74 case 58 mean_dice 0.962303 mean_hd95 3.146050 iou 0.927344 pre 0.951184 recall 0.973684 mcc 0.961872
+[03:09:22.753] idx 75 case 59 mean_dice 0.907801 mean_hd95 1.414214 iou 0.831169 pre 0.853333 recall 0.969697 mcc 0.909633
+[03:09:22.904] idx 76 case 6 mean_dice 0.686869 mean_hd95 5.000000 iou 0.523077 pre 0.850000 recall 0.576271 mcc 0.699773
+[03:09:23.057] idx 77 case 60 mean_dice 0.949952 mean_hd95 3.000000 iou 0.904675 pre 0.940000 recall 0.960117 mcc 0.949806
+[03:09:23.214] idx 78 case 61 mean_dice 0.957453 mean_hd95 2.828427 iou 0.918379 pre 0.949756 recall 0.965276 mcc 0.956917
+[03:09:23.366] idx 79 case 62 mean_dice 0.955440 mean_hd95 4.000000 iou 0.914681 pre 0.940216 recall 0.971164 mcc 0.954924
+[03:09:23.517] idx 80 case 63 mean_dice 0.888511 mean_hd95 6.980475 iou 0.799387 pre 0.828133 recall 0.958384 mcc 0.890161
+[03:09:23.671] idx 81 case 64 mean_dice 0.946673 mean_hd95 3.113594 iou 0.898746 pre 0.951011 recall 0.942374 mcc 0.946029
+[03:09:23.822] idx 82 case 65 mean_dice 0.960728 mean_hd95 3.605551 iou 0.924424 pre 0.944061 recall 0.977994 mcc 0.960035
+[03:09:23.969] idx 83 case 66 mean_dice 0.957881 mean_hd95 4.158966 iou 0.919166 pre 0.970217 recall 0.945854 mcc 0.957345
+[03:09:24.116] idx 84 case 67 mean_dice 0.752475 mean_hd95 4.000000 iou 0.603175 pre 0.966102 recall 0.616216 mcc 0.771457
+[03:09:24.271] idx 85 case 68 mean_dice 0.913850 mean_hd95 4.472136 iou 0.841365 pre 0.971406 recall 0.862732 mcc 0.915021
+[03:09:24.420] idx 86 case 69 mean_dice 0.914599 mean_hd95 4.123106 iou 0.842638 pre 0.941256 recall 0.889411 mcc 0.914225
+[03:09:24.567] idx 87 case 7 mean_dice 0.734694 mean_hd95 2.236068 iou 0.580645 pre 1.000000 recall 0.580645 mcc 0.761944
+[03:09:24.716] idx 88 case 70 mean_dice 0.919273 mean_hd95 5.907024 iou 0.850606 pre 0.975348 recall 0.869296 mcc 0.920296
+[03:09:24.864] idx 89 case 71 mean_dice 0.940897 mean_hd95 2.236068 iou 0.888390 pre 0.959806 recall 0.922718 mcc 0.940748
+[03:09:25.016] idx 90 case 72 mean_dice 0.937898 mean_hd95 7.347243 iou 0.883058 pre 0.957836 recall 0.918773 mcc 0.937410
+[03:09:25.177] idx 91 case 73 mean_dice 0.961883 mean_hd95 2.828427 iou 0.926564 pre 0.950318 recall 0.973732 mcc 0.961127
+[03:09:25.332] idx 92 case 74 mean_dice 0.933903 mean_hd95 6.194733 iou 0.876002 pre 0.947977 recall 0.920240 mcc 0.933382
+[03:09:25.479] idx 93 case 75 mean_dice 0.952272 mean_hd95 5.385165 iou 0.908892 pre 0.933004 recall 0.972352 mcc 0.951675
+[03:09:25.626] idx 94 case 76 mean_dice 0.941977 mean_hd95 2.828427 iou 0.890318 pre 0.941303 recall 0.942652 mcc 0.941667
+[03:09:25.778] idx 95 case 77 mean_dice 0.926458 mean_hd95 6.324555 iou 0.862992 pre 0.916516 recall 0.936619 mcc 0.924469
+[03:09:25.928] idx 96 case 78 mean_dice 0.909049 mean_hd95 5.830952 iou 0.833263 pre 0.942518 recall 0.877876 mcc 0.908870
+[03:09:26.077] idx 97 case 79 mean_dice 0.957325 mean_hd95 3.000000 iou 0.918143 pre 0.949487 recall 0.965293 mcc 0.956769
+[03:09:26.238] idx 98 case 8 mean_dice 0.820896 mean_hd95 2.059017 iou 0.696203 pre 0.964912 recall 0.714286 mcc 0.830154
+[03:09:26.387] idx 99 case 80 mean_dice 0.904943 mean_hd95 7.810250 iou 0.826389 pre 0.982118 recall 0.839013 mcc 0.907210
+[03:09:26.540] idx 100 case 81 mean_dice 0.945669 mean_hd95 3.605551 iou 0.896938 pre 0.976322 recall 0.916883 mcc 0.945205
+[03:09:26.688] idx 101 case 82 mean_dice 0.925960 mean_hd95 8.000000 iou 0.862128 pre 0.971840 recall 0.884217 mcc 0.925630
+[03:09:26.838] idx 102 case 83 mean_dice 0.939948 mean_hd95 7.141085 iou 0.886700 pre 0.949935 recall 0.930170 mcc 0.938369
+[03:09:26.989] idx 103 case 84 mean_dice 0.911616 mean_hd95 5.477390 iou 0.837587 pre 0.946885 recall 0.878880 mcc 0.911720
+[03:09:27.134] idx 104 case 85 mean_dice 0.891023 mean_hd95 12.369317 iou 0.803465 pre 0.812938 recall 0.985703 mcc 0.894056
+[03:09:27.282] idx 105 case 86 mean_dice 0.938573 mean_hd95 6.082763 iou 0.884256 pre 0.957384 recall 0.920487 mcc 0.938186
+[03:09:27.430] idx 106 case 87 mean_dice 0.844214 mean_hd95 9.896963 iou 0.730424 pre 0.749671 recall 0.966044 mcc 0.850280
+[03:09:27.580] idx 107 case 88 mean_dice 0.938788 mean_hd95 4.472136 iou 0.884637 pre 0.965871 recall 0.913182 mcc 0.937566
+[03:09:27.733] idx 108 case 89 mean_dice 0.901759 mean_hd95 6.708204 iou 0.821094 pre 0.965238 recall 0.846115 mcc 0.903048
+[03:09:27.876] idx 109 case 9 mean_dice 0.890815 mean_hd95 2.828427 iou 0.803125 pre 0.886207 recall 0.895470 mcc 0.890706
+[03:09:28.029] idx 110 case 90 mean_dice 0.941545 mean_hd95 5.099020 iou 0.889546 pre 0.924180 recall 0.959574 mcc 0.941067
+[03:09:28.181] idx 111 case 91 mean_dice 0.786077 mean_hd95 9.000000 iou 0.647552 pre 0.887809 recall 0.705263 mcc 0.790299
+[03:09:28.335] idx 112 case 92 mean_dice 0.807831 mean_hd95 11.704700 iou 0.677614 pre 0.681726 recall 0.991176 mcc 0.820468
+[03:09:28.488] idx 113 case 93 mean_dice 0.798115 mean_hd95 15.376549 iou 0.664053 pre 0.702168 recall 0.924433 mcc 0.803706
+[03:09:28.642] idx 114 case 94 mean_dice 0.840645 mean_hd95 11.704700 iou 0.725098 pre 0.958932 recall 0.748336 mcc 0.844245
+[03:09:28.794] idx 115 case 95 mean_dice 0.721749 mean_hd95 10.034913 iou 0.564638 pre 0.841986 recall 0.631561 mcc 0.726630
+[03:09:28.955] idx 116 case 96 mean_dice 0.899875 mean_hd95 7.211103 iou 0.817975 pre 0.873902 recall 0.927439 mcc 0.898264
+[03:09:29.104] idx 117 case 97 mean_dice 0.874334 mean_hd95 10.440307 iou 0.776727 pre 0.927055 recall 0.827287 mcc 0.873516
+[03:09:29.255] idx 118 case 98 mean_dice 0.928585 mean_hd95 6.000000 iou 0.866690 pre 0.932513 recall 0.924690 mcc 0.927142
+[03:09:29.411] idx 119 case 99 mean_dice 0.531538 mean_hd95 49.325237 iou 0.361969 pre 0.852919 recall 0.386067 mcc 0.570967
+[03:09:29.411] Mean class 1 mean_dice 0.843712 mean_hd95 12.186649 iou 0.756069 pre 0.868279 recall 0.839471 mcc 0.847936
+[03:09:29.411] Testing performance in best val model: mean_dice : 0.843712 mean_hd95 : 12.186649 iou : 0.756069 pre : 0.868279 recall : 0.839471 mcc : 0.847936
+[12:39:18.300] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[12:39:18.301] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[12:39:18.302] 120 test iterations per epoch
+[12:39:24.414] idx 0 case 0 mean_dice 0.766129 mean_hd95 2.769191 iou 0.620915 pre 0.785124 recall 0.748031 mcc 0.766243
+[12:39:24.660] idx 1 case 1 mean_dice 0.670103 mean_hd95 9.882932 iou 0.503876 pre 0.570175 recall 0.812500 mcc 0.680525
+[12:39:24.887] idx 2 case 10 mean_dice 0.881988 mean_hd95 2.000000 iou 0.788889 pre 0.972603 recall 0.806818 mcc 0.885739
+[12:39:25.117] idx 3 case 100 mean_dice 0.582424 mean_hd95 13.000000 iou 0.410859 pre 0.613059 recall 0.554705 mcc 0.581768
+[12:39:25.364] idx 4 case 101 mean_dice 0.842105 mean_hd95 2.000000 iou 0.727273 pre 0.837209 recall 0.847059 mcc 0.842017
+[12:39:25.574] idx 5 case 102 mean_dice 0.737965 mean_hd95 12.000000 iou 0.584742 pre 0.950669 recall 0.603040 mcc 0.755634
+[12:39:25.810] idx 6 case 103 mean_dice 0.739310 mean_hd95 6.000000 iou 0.586433 pre 0.818737 recall 0.673931 mcc 0.741762
+[12:39:26.060] idx 7 case 104 mean_dice 0.703196 mean_hd95 10.000000 iou 0.542254 pre 0.948276 recall 0.558781 mcc 0.727429
+[12:39:26.417] idx 8 case 105 mean_dice 0.910373 mean_hd95 3.790569 iou 0.835490 pre 0.893281 recall 0.928131 mcc 0.910370
+[12:39:26.677] idx 9 case 106 mean_dice 0.904290 mean_hd95 2.295304 iou 0.825301 pre 0.889610 recall 0.919463 mcc 0.904303
+[12:39:26.947] idx 10 case 107 mean_dice 0.566210 mean_hd95 5.839404 iou 0.394904 pre 0.911765 recall 0.410596 mcc 0.611724
+[12:39:27.210] idx 11 case 108 mean_dice 0.919664 mean_hd95 4.123106 iou 0.851276 pre 0.950434 recall 0.890825 mcc 0.919893
+[12:39:27.468] idx 12 case 109 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[12:39:27.753] idx 13 case 11 mean_dice 0.856089 mean_hd95 2.000000 iou 0.748387 pre 0.966667 recall 0.768212 mcc 0.861677
+[12:39:28.019] idx 14 case 110 mean_dice 0.832702 mean_hd95 150.416243 iou 0.713358 pre 0.938950 recall 0.748054 mcc 0.837535
+[12:39:28.266] idx 15 case 111 mean_dice 0.868762 mean_hd95 2.000000 iou 0.767974 pre 0.947581 recall 0.802048 mcc 0.871654
+[12:39:28.497] idx 16 case 112 mean_dice 0.919578 mean_hd95 4.000000 iou 0.851129 pre 0.956171 recall 0.885684 mcc 0.919980
+[12:39:28.726] idx 17 case 113 mean_dice 0.568966 mean_hd95 100.094906 iou 0.397590 pre 0.589286 recall 0.550000 mcc 0.569114
+[12:39:28.964] idx 18 case 114 mean_dice 0.873294 mean_hd95 2.828427 iou 0.775087 pre 0.945148 recall 0.811594 mcc 0.875710
+[12:39:29.191] idx 19 case 115 mean_dice 0.789062 mean_hd95 288.447407 iou 0.651613 pre 0.765152 recall 0.814516 mcc 0.789345
+[12:39:29.431] idx 20 case 116 mean_dice 0.878187 mean_hd95 3.605551 iou 0.782828 pre 0.880682 recall 0.875706 mcc 0.878026
+[12:39:29.631] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[12:39:29.861] idx 22 case 118 mean_dice 0.087179 mean_hd95 255.519324 iou 0.045576 pre 0.404762 recall 0.048851 mcc 0.140259
+[12:39:30.082] idx 23 case 119 mean_dice 0.817910 mean_hd95 4.123106 iou 0.691919 pre 0.759003 recall 0.886731 mcc 0.820159
+[12:39:30.318] idx 24 case 12 mean_dice 0.909091 mean_hd95 2.000000 iou 0.833333 pre 0.869565 recall 0.952381 mcc 0.910009
+[12:39:30.586] idx 25 case 13 mean_dice 0.912727 mean_hd95 1.414214 iou 0.839465 pre 0.916058 recall 0.909420 mcc 0.912642
+[12:39:30.843] idx 26 case 14 mean_dice 0.599532 mean_hd95 12.083046 iou 0.428094 pre 0.458781 recall 0.864865 mcc 0.629645
+[12:39:31.093] idx 27 case 15 mean_dice 0.699438 mean_hd95 9.969772 iou 0.537797 pre 0.929104 recall 0.560811 mcc 0.721503
+[12:39:31.331] idx 28 case 16 mean_dice 0.594427 mean_hd95 7.944936 iou 0.422908 pre 1.000000 recall 0.422907 mcc 0.650151
+[12:39:31.591] idx 29 case 17 mean_dice 0.843750 mean_hd95 2.000000 iou 0.729730 pre 0.843750 recall 0.843750 mcc 0.843693
+[12:39:31.891] idx 30 case 18 mean_dice 0.860898 mean_hd95 4.000000 iou 0.755769 pre 0.873333 recall 0.848812 mcc 0.860743
+[12:39:32.179] idx 31 case 19 mean_dice 0.818658 mean_hd95 11.479799 iou 0.692990 pre 0.721477 recall 0.946095 mcc 0.825525
+[12:39:32.468] idx 32 case 2 mean_dice 0.793651 mean_hd95 1.414214 iou 0.657895 pre 0.657895 recall 1.000000 mcc 0.811067
+[12:39:32.703] idx 33 case 20 mean_dice 0.409836 mean_hd95 7.481508 iou 0.257732 pre 0.384615 recall 0.438596 mcc 0.410447
+[12:39:32.937] idx 34 case 21 mean_dice 0.929561 mean_hd95 2.000000 iou 0.868393 pre 0.976942 recall 0.886564 mcc 0.930430
+[12:39:33.171] idx 35 case 22 mean_dice 0.955030 mean_hd95 3.000000 iou 0.913930 pre 0.983751 recall 0.927938 mcc 0.954820
+[12:39:33.484] idx 36 case 23 mean_dice 0.940352 mean_hd95 5.156249 iou 0.887420 pre 0.986146 recall 0.898623 mcc 0.940814
+[12:39:33.720] idx 37 case 24 mean_dice 0.904155 mean_hd95 3.605551 iou 0.825076 pre 0.858947 recall 0.954386 mcc 0.905088
+[12:39:33.984] idx 38 case 25 mean_dice 0.905303 mean_hd95 5.000000 iou 0.826990 pre 0.873538 recall 0.939465 mcc 0.905429
+[12:39:34.232] idx 39 case 26 mean_dice 0.929373 mean_hd95 4.472136 iou 0.868065 pre 0.886656 recall 0.976415 mcc 0.929690
+[12:39:34.475] idx 40 case 27 mean_dice 0.955315 mean_hd95 2.236068 iou 0.914453 pre 0.966854 recall 0.944048 mcc 0.955075
+[12:39:34.745] idx 41 case 28 mean_dice 0.917576 mean_hd95 4.000000 iou 0.847705 pre 0.947164 recall 0.889781 mcc 0.917609
+[12:39:35.028] idx 42 case 29 mean_dice 0.947857 mean_hd95 2.709955 iou 0.900883 pre 0.951254 recall 0.944484 mcc 0.947583
+[12:39:35.297] idx 43 case 3 mean_dice 0.664452 mean_hd95 9.055385 iou 0.497512 pre 0.840336 recall 0.549451 mcc 0.679331
+[12:39:35.598] idx 44 case 30 mean_dice 0.931096 mean_hd95 6.000000 iou 0.871075 pre 0.933959 recall 0.928250 mcc 0.930276
+[12:39:35.872] idx 45 case 31 mean_dice 0.941340 mean_hd95 3.605551 iou 0.889181 pre 0.973548 recall 0.911195 mcc 0.941458
+[12:39:36.129] idx 46 case 32 mean_dice 0.938757 mean_hd95 4.000000 iou 0.884582 pre 0.944600 recall 0.932985 mcc 0.938010
+[12:39:36.390] idx 47 case 33 mean_dice 0.854651 mean_hd95 8.015564 iou 0.746193 pre 0.868110 recall 0.841603 mcc 0.854180
+[12:39:36.621] idx 48 case 34 mean_dice 0.929679 mean_hd95 4.000000 iou 0.868599 pre 0.901705 recall 0.959445 mcc 0.929611
+[12:39:36.865] idx 49 case 35 mean_dice 0.909091 mean_hd95 5.830952 iou 0.833333 pre 0.992126 recall 0.838881 mcc 0.911619
+[12:39:37.172] idx 50 case 36 mean_dice 0.939136 mean_hd95 3.605551 iou 0.885255 pre 0.958193 recall 0.920821 mcc 0.938540
+[12:39:37.408] idx 51 case 37 mean_dice 0.834129 mean_hd95 7.000000 iou 0.715455 pre 0.776667 recall 0.900773 mcc 0.835905
+[12:39:37.635] idx 52 case 38 mean_dice 0.857055 mean_hd95 7.000000 iou 0.749865 pre 0.758056 recall 0.985795 mcc 0.863669
+[12:39:37.883] idx 53 case 39 mean_dice 0.923351 mean_hd95 3.000000 iou 0.857616 pre 0.925000 recall 0.921708 mcc 0.922774
+[12:39:38.113] idx 54 case 4 mean_dice 0.811594 mean_hd95 2.236068 iou 0.682927 pre 0.682927 recall 1.000000 mcc 0.826353
+[12:39:38.343] idx 55 case 40 mean_dice 0.866597 mean_hd95 9.262583 iou 0.764597 pre 0.817787 recall 0.921604 mcc 0.866949
+[12:39:38.573] idx 56 case 41 mean_dice 0.952804 mean_hd95 3.162278 iou 0.909862 pre 0.922739 recall 0.984895 mcc 0.952401
+[12:39:38.807] idx 57 case 42 mean_dice 0.920486 mean_hd95 6.000000 iou 0.852686 pre 0.959064 recall 0.884892 mcc 0.920267
+[12:39:39.043] idx 58 case 43 mean_dice 0.904281 mean_hd95 7.810250 iou 0.825285 pre 0.865562 recall 0.946626 mcc 0.904814
+[12:39:39.278] idx 59 case 44 mean_dice 0.874227 mean_hd95 9.704048 iou 0.776557 pre 0.937500 recall 0.818954 mcc 0.874516
+[12:39:39.510] idx 60 case 45 mean_dice 0.866416 mean_hd95 5.425918 iou 0.764315 pre 0.778529 recall 0.976670 mcc 0.871495
+[12:39:39.745] idx 61 case 46 mean_dice 0.938252 mean_hd95 5.385165 iou 0.883686 pre 0.971975 recall 0.906791 mcc 0.937473
+[12:39:39.977] idx 62 case 47 mean_dice 0.869180 mean_hd95 5.000000 iou 0.768627 pre 0.831389 recall 0.910569 mcc 0.869634
+[12:39:40.230] idx 63 case 48 mean_dice 0.931258 mean_hd95 5.099020 iou 0.871359 pre 0.875398 recall 0.994732 mcc 0.932348
+[12:39:40.483] idx 64 case 49 mean_dice 0.951613 mean_hd95 2.982843 iou 0.907692 pre 0.920387 recall 0.985032 mcc 0.951835
+[12:39:40.721] idx 65 case 5 mean_dice 0.811828 mean_hd95 4.000000 iou 0.683258 pre 0.712264 recall 0.943750 mcc 0.819757
+[12:39:40.966] idx 66 case 50 mean_dice 0.937500 mean_hd95 3.162278 iou 0.882353 pre 0.902197 recall 0.975679 mcc 0.937787
+[12:39:41.200] idx 67 case 51 mean_dice 0.949554 mean_hd95 3.605551 iou 0.903953 pre 0.917001 recall 0.984503 mcc 0.949696
+[12:39:41.423] idx 68 case 52 mean_dice 0.957591 mean_hd95 2.828427 iou 0.918633 pre 0.950020 recall 0.965285 mcc 0.956785
+[12:39:41.651] idx 69 case 53 mean_dice 0.916716 mean_hd95 13.654426 iou 0.846239 pre 0.983664 recall 0.858301 mcc 0.917827
+[12:39:41.882] idx 70 case 54 mean_dice 0.936216 mean_hd95 2.236068 iou 0.880081 pre 0.918346 recall 0.954796 mcc 0.936169
+[12:39:42.146] idx 71 case 55 mean_dice 0.895885 mean_hd95 6.708204 iou 0.811406 pre 0.978877 recall 0.825866 mcc 0.898446
+[12:39:42.375] idx 72 case 56 mean_dice 0.880114 mean_hd95 10.009975 iou 0.785895 pre 0.817846 recall 0.952645 mcc 0.881902
+[12:39:42.604] idx 73 case 57 mean_dice 0.953959 mean_hd95 2.000000 iou 0.911972 pre 0.954211 recall 0.953709 mcc 0.953623
+[12:39:42.831] idx 74 case 58 mean_dice 0.962303 mean_hd95 3.146050 iou 0.927344 pre 0.951184 recall 0.973684 mcc 0.961872
+[12:39:43.057] idx 75 case 59 mean_dice 0.907801 mean_hd95 1.414214 iou 0.831169 pre 0.853333 recall 0.969697 mcc 0.909633
+[12:39:43.303] idx 76 case 6 mean_dice 0.686869 mean_hd95 5.000000 iou 0.523077 pre 0.850000 recall 0.576271 mcc 0.699773
+[12:39:43.538] idx 77 case 60 mean_dice 0.949952 mean_hd95 3.000000 iou 0.904675 pre 0.940000 recall 0.960117 mcc 0.949806
+[12:39:43.764] idx 78 case 61 mean_dice 0.957453 mean_hd95 2.828427 iou 0.918379 pre 0.949756 recall 0.965276 mcc 0.956917
+[12:39:44.027] idx 79 case 62 mean_dice 0.955440 mean_hd95 4.000000 iou 0.914681 pre 0.940216 recall 0.971164 mcc 0.954924
+[12:39:44.266] idx 80 case 63 mean_dice 0.888511 mean_hd95 6.980475 iou 0.799387 pre 0.828133 recall 0.958384 mcc 0.890161
+[12:39:44.502] idx 81 case 64 mean_dice 0.946673 mean_hd95 3.113594 iou 0.898746 pre 0.951011 recall 0.942374 mcc 0.946029
+[12:39:44.751] idx 82 case 65 mean_dice 0.960728 mean_hd95 3.605551 iou 0.924424 pre 0.944061 recall 0.977994 mcc 0.960035
+[12:39:45.018] idx 83 case 66 mean_dice 0.957881 mean_hd95 4.158966 iou 0.919166 pre 0.970217 recall 0.945854 mcc 0.957345
+[12:39:45.257] idx 84 case 67 mean_dice 0.752475 mean_hd95 4.000000 iou 0.603175 pre 0.966102 recall 0.616216 mcc 0.771457
+[12:39:45.489] idx 85 case 68 mean_dice 0.913850 mean_hd95 4.472136 iou 0.841365 pre 0.971406 recall 0.862732 mcc 0.915021
+[12:39:45.729] idx 86 case 69 mean_dice 0.914599 mean_hd95 4.123106 iou 0.842638 pre 0.941256 recall 0.889411 mcc 0.914225
+[12:39:45.958] idx 87 case 7 mean_dice 0.734694 mean_hd95 2.236068 iou 0.580645 pre 1.000000 recall 0.580645 mcc 0.761944
+[12:39:46.208] idx 88 case 70 mean_dice 0.919273 mean_hd95 5.907024 iou 0.850606 pre 0.975348 recall 0.869296 mcc 0.920296
+[12:39:46.447] idx 89 case 71 mean_dice 0.940897 mean_hd95 2.236068 iou 0.888390 pre 0.959806 recall 0.922718 mcc 0.940748
+[12:39:46.685] idx 90 case 72 mean_dice 0.937898 mean_hd95 7.347243 iou 0.883058 pre 0.957836 recall 0.918773 mcc 0.937410
+[12:39:46.941] idx 91 case 73 mean_dice 0.961883 mean_hd95 2.828427 iou 0.926564 pre 0.950318 recall 0.973732 mcc 0.961127
+[12:39:47.187] idx 92 case 74 mean_dice 0.933903 mean_hd95 6.194733 iou 0.876002 pre 0.947977 recall 0.920240 mcc 0.933382
+[12:39:47.424] idx 93 case 75 mean_dice 0.952272 mean_hd95 5.385165 iou 0.908892 pre 0.933004 recall 0.972352 mcc 0.951675
+[12:39:47.655] idx 94 case 76 mean_dice 0.941977 mean_hd95 2.828427 iou 0.890318 pre 0.941303 recall 0.942652 mcc 0.941667
+[12:39:47.890] idx 95 case 77 mean_dice 0.926458 mean_hd95 6.324555 iou 0.862992 pre 0.916516 recall 0.936619 mcc 0.924469
+[12:39:48.174] idx 96 case 78 mean_dice 0.909049 mean_hd95 5.830952 iou 0.833263 pre 0.942518 recall 0.877876 mcc 0.908870
+[12:39:48.410] idx 97 case 79 mean_dice 0.957325 mean_hd95 3.000000 iou 0.918143 pre 0.949487 recall 0.965293 mcc 0.956769
+[12:39:48.640] idx 98 case 8 mean_dice 0.820896 mean_hd95 2.059017 iou 0.696203 pre 0.964912 recall 0.714286 mcc 0.830154
+[12:39:48.872] idx 99 case 80 mean_dice 0.904943 mean_hd95 7.810250 iou 0.826389 pre 0.982118 recall 0.839013 mcc 0.907210
+[12:39:49.123] idx 100 case 81 mean_dice 0.945669 mean_hd95 3.605551 iou 0.896938 pre 0.976322 recall 0.916883 mcc 0.945205
+[12:39:49.361] idx 101 case 82 mean_dice 0.925960 mean_hd95 8.000000 iou 0.862128 pre 0.971840 recall 0.884217 mcc 0.925630
+[12:39:49.605] idx 102 case 83 mean_dice 0.939948 mean_hd95 7.141085 iou 0.886700 pre 0.949935 recall 0.930170 mcc 0.938369
+[12:39:49.849] idx 103 case 84 mean_dice 0.911616 mean_hd95 5.477390 iou 0.837587 pre 0.946885 recall 0.878880 mcc 0.911720
+[12:39:50.164] idx 104 case 85 mean_dice 0.891023 mean_hd95 12.369317 iou 0.803465 pre 0.812938 recall 0.985703 mcc 0.894056
+[12:39:50.403] idx 105 case 86 mean_dice 0.938573 mean_hd95 6.082763 iou 0.884256 pre 0.957384 recall 0.920487 mcc 0.938186
+[12:39:50.634] idx 106 case 87 mean_dice 0.844214 mean_hd95 9.896963 iou 0.730424 pre 0.749671 recall 0.966044 mcc 0.850280
+[12:39:50.871] idx 107 case 88 mean_dice 0.938788 mean_hd95 4.472136 iou 0.884637 pre 0.965871 recall 0.913182 mcc 0.937566
+[12:39:51.134] idx 108 case 89 mean_dice 0.901759 mean_hd95 6.708204 iou 0.821094 pre 0.965238 recall 0.846115 mcc 0.903048
+[12:39:51.375] idx 109 case 9 mean_dice 0.890815 mean_hd95 2.828427 iou 0.803125 pre 0.886207 recall 0.895470 mcc 0.890706
+[12:39:51.622] idx 110 case 90 mean_dice 0.941545 mean_hd95 5.099020 iou 0.889546 pre 0.924180 recall 0.959574 mcc 0.941067
+[12:39:51.878] idx 111 case 91 mean_dice 0.786077 mean_hd95 9.000000 iou 0.647552 pre 0.887809 recall 0.705263 mcc 0.790299
+[12:39:52.150] idx 112 case 92 mean_dice 0.807831 mean_hd95 11.704700 iou 0.677614 pre 0.681726 recall 0.991176 mcc 0.820468
+[12:39:52.382] idx 113 case 93 mean_dice 0.798115 mean_hd95 15.376549 iou 0.664053 pre 0.702168 recall 0.924433 mcc 0.803706
+[12:39:52.616] idx 114 case 94 mean_dice 0.840645 mean_hd95 11.704700 iou 0.725098 pre 0.958932 recall 0.748336 mcc 0.844245
+[12:39:52.847] idx 115 case 95 mean_dice 0.721749 mean_hd95 10.034913 iou 0.564638 pre 0.841986 recall 0.631561 mcc 0.726630
+[12:39:53.092] idx 116 case 96 mean_dice 0.899875 mean_hd95 7.211103 iou 0.817975 pre 0.873902 recall 0.927439 mcc 0.898264
+[12:39:53.327] idx 117 case 97 mean_dice 0.874334 mean_hd95 10.440307 iou 0.776727 pre 0.927055 recall 0.827287 mcc 0.873516
+[12:39:53.563] idx 118 case 98 mean_dice 0.928585 mean_hd95 6.000000 iou 0.866690 pre 0.932513 recall 0.924690 mcc 0.927142
+[12:39:53.796] idx 119 case 99 mean_dice 0.531538 mean_hd95 49.325237 iou 0.361969 pre 0.852919 recall 0.386067 mcc 0.570967
+[12:39:53.797] Mean class 1 mean_dice 0.843712 mean_hd95 12.186649 iou 0.756069 pre 0.868279 recall 0.839471 mcc 0.847936
+[12:39:53.797] Testing performance in best val model: mean_dice : 0.843712 mean_hd95 : 12.186649 iou : 0.756069 pre : 0.868279 recall : 0.839471 mcc : 0.847936
+[22:11:10.268] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[22:11:10.269] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[22:11:10.270] 120 test iterations per epoch
+[22:11:12.735] idx 0 case 0 mean_dice 0.766129 mean_hd95 2.769191 iou 0.620915 pre 0.785124 recall 0.748031 mcc 0.766243
+[22:11:12.884] idx 1 case 1 mean_dice 0.670103 mean_hd95 9.882932 iou 0.503876 pre 0.570175 recall 0.812500 mcc 0.680525
+[22:11:13.034] idx 2 case 10 mean_dice 0.881988 mean_hd95 2.000000 iou 0.788889 pre 0.972603 recall 0.806818 mcc 0.885739
+[22:11:13.184] idx 3 case 100 mean_dice 0.582424 mean_hd95 13.000000 iou 0.410859 pre 0.613059 recall 0.554705 mcc 0.581768
+[22:11:13.336] idx 4 case 101 mean_dice 0.842105 mean_hd95 2.000000 iou 0.727273 pre 0.837209 recall 0.847059 mcc 0.842017
+[22:11:13.488] idx 5 case 102 mean_dice 0.737965 mean_hd95 12.000000 iou 0.584742 pre 0.950669 recall 0.603040 mcc 0.755634
+[22:11:13.641] idx 6 case 103 mean_dice 0.739310 mean_hd95 6.000000 iou 0.586433 pre 0.818737 recall 0.673931 mcc 0.741762
+[22:11:13.783] idx 7 case 104 mean_dice 0.703196 mean_hd95 10.000000 iou 0.542254 pre 0.948276 recall 0.558781 mcc 0.727429
+[22:11:13.923] idx 8 case 105 mean_dice 0.910373 mean_hd95 3.790569 iou 0.835490 pre 0.893281 recall 0.928131 mcc 0.910370
+[22:11:14.067] idx 9 case 106 mean_dice 0.904290 mean_hd95 2.295304 iou 0.825301 pre 0.889610 recall 0.919463 mcc 0.904303
+[22:11:14.207] idx 10 case 107 mean_dice 0.566210 mean_hd95 5.839404 iou 0.394904 pre 0.911765 recall 0.410596 mcc 0.611724
+[22:11:14.349] idx 11 case 108 mean_dice 0.919664 mean_hd95 4.123106 iou 0.851276 pre 0.950434 recall 0.890825 mcc 0.919893
+[22:11:14.474] idx 12 case 109 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[22:11:14.623] idx 13 case 11 mean_dice 0.856089 mean_hd95 2.000000 iou 0.748387 pre 0.966667 recall 0.768212 mcc 0.861677
+[22:11:14.770] idx 14 case 110 mean_dice 0.832702 mean_hd95 150.416243 iou 0.713358 pre 0.938950 recall 0.748054 mcc 0.837535
+[22:11:14.911] idx 15 case 111 mean_dice 0.868762 mean_hd95 2.000000 iou 0.767974 pre 0.947581 recall 0.802048 mcc 0.871654
+[22:11:15.055] idx 16 case 112 mean_dice 0.919578 mean_hd95 4.000000 iou 0.851129 pre 0.956171 recall 0.885684 mcc 0.919980
+[22:11:15.197] idx 17 case 113 mean_dice 0.568966 mean_hd95 100.094906 iou 0.397590 pre 0.589286 recall 0.550000 mcc 0.569114
+[22:11:15.341] idx 18 case 114 mean_dice 0.873294 mean_hd95 2.828427 iou 0.775087 pre 0.945148 recall 0.811594 mcc 0.875710
+[22:11:15.485] idx 19 case 115 mean_dice 0.789062 mean_hd95 288.447407 iou 0.651613 pre 0.765152 recall 0.814516 mcc 0.789345
+[22:11:15.634] idx 20 case 116 mean_dice 0.878187 mean_hd95 3.605551 iou 0.782828 pre 0.880682 recall 0.875706 mcc 0.878026
+[22:11:15.760] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[22:11:15.900] idx 22 case 118 mean_dice 0.087179 mean_hd95 255.519324 iou 0.045576 pre 0.404762 recall 0.048851 mcc 0.140259
+[22:11:16.043] idx 23 case 119 mean_dice 0.817910 mean_hd95 4.123106 iou 0.691919 pre 0.759003 recall 0.886731 mcc 0.820159
+[22:11:16.194] idx 24 case 12 mean_dice 0.909091 mean_hd95 2.000000 iou 0.833333 pre 0.869565 recall 0.952381 mcc 0.910009
+[22:11:16.338] idx 25 case 13 mean_dice 0.912727 mean_hd95 1.414214 iou 0.839465 pre 0.916058 recall 0.909420 mcc 0.912642
+[22:11:16.486] idx 26 case 14 mean_dice 0.599532 mean_hd95 12.083046 iou 0.428094 pre 0.458781 recall 0.864865 mcc 0.629645
+[22:11:16.625] idx 27 case 15 mean_dice 0.699438 mean_hd95 9.969772 iou 0.537797 pre 0.929104 recall 0.560811 mcc 0.721503
+[22:11:16.772] idx 28 case 16 mean_dice 0.594427 mean_hd95 7.944936 iou 0.422908 pre 1.000000 recall 0.422907 mcc 0.650151
+[22:11:16.924] idx 29 case 17 mean_dice 0.843750 mean_hd95 2.000000 iou 0.729730 pre 0.843750 recall 0.843750 mcc 0.843693
+[22:11:17.071] idx 30 case 18 mean_dice 0.860898 mean_hd95 4.000000 iou 0.755769 pre 0.873333 recall 0.848812 mcc 0.860743
+[22:11:17.211] idx 31 case 19 mean_dice 0.818658 mean_hd95 11.479799 iou 0.692990 pre 0.721477 recall 0.946095 mcc 0.825525
+[22:11:17.351] idx 32 case 2 mean_dice 0.793651 mean_hd95 1.414214 iou 0.657895 pre 0.657895 recall 1.000000 mcc 0.811067
+[22:11:17.496] idx 33 case 20 mean_dice 0.409836 mean_hd95 7.481508 iou 0.257732 pre 0.384615 recall 0.438596 mcc 0.410447
+[22:11:17.637] idx 34 case 21 mean_dice 0.929561 mean_hd95 2.000000 iou 0.868393 pre 0.976942 recall 0.886564 mcc 0.930430
+[22:11:17.781] idx 35 case 22 mean_dice 0.955030 mean_hd95 3.000000 iou 0.913930 pre 0.983751 recall 0.927938 mcc 0.954820
+[22:11:17.927] idx 36 case 23 mean_dice 0.940352 mean_hd95 5.156249 iou 0.887420 pre 0.986146 recall 0.898623 mcc 0.940814
+[22:11:18.077] idx 37 case 24 mean_dice 0.904155 mean_hd95 3.605551 iou 0.825076 pre 0.858947 recall 0.954386 mcc 0.905088
+[22:11:18.220] idx 38 case 25 mean_dice 0.905303 mean_hd95 5.000000 iou 0.826990 pre 0.873538 recall 0.939465 mcc 0.905429
+[22:11:18.364] idx 39 case 26 mean_dice 0.929373 mean_hd95 4.472136 iou 0.868065 pre 0.886656 recall 0.976415 mcc 0.929690
+[22:11:18.516] idx 40 case 27 mean_dice 0.955315 mean_hd95 2.236068 iou 0.914453 pre 0.966854 recall 0.944048 mcc 0.955075
+[22:11:18.664] idx 41 case 28 mean_dice 0.917576 mean_hd95 4.000000 iou 0.847705 pre 0.947164 recall 0.889781 mcc 0.917609
+[22:11:18.807] idx 42 case 29 mean_dice 0.947857 mean_hd95 2.709955 iou 0.900883 pre 0.951254 recall 0.944484 mcc 0.947583
+[22:11:18.949] idx 43 case 3 mean_dice 0.664452 mean_hd95 9.055385 iou 0.497512 pre 0.840336 recall 0.549451 mcc 0.679331
+[22:11:19.093] idx 44 case 30 mean_dice 0.931096 mean_hd95 6.000000 iou 0.871075 pre 0.933959 recall 0.928250 mcc 0.930276
+[22:11:19.236] idx 45 case 31 mean_dice 0.941340 mean_hd95 3.605551 iou 0.889181 pre 0.973548 recall 0.911195 mcc 0.941458
+[22:11:19.379] idx 46 case 32 mean_dice 0.938757 mean_hd95 4.000000 iou 0.884582 pre 0.944600 recall 0.932985 mcc 0.938010
+[22:11:19.528] idx 47 case 33 mean_dice 0.854651 mean_hd95 8.015564 iou 0.746193 pre 0.868110 recall 0.841603 mcc 0.854180
+[22:11:19.676] idx 48 case 34 mean_dice 0.929679 mean_hd95 4.000000 iou 0.868599 pre 0.901705 recall 0.959445 mcc 0.929611
+[22:11:19.815] idx 49 case 35 mean_dice 0.909091 mean_hd95 5.830952 iou 0.833333 pre 0.992126 recall 0.838881 mcc 0.911619
+[22:11:19.963] idx 50 case 36 mean_dice 0.939136 mean_hd95 3.605551 iou 0.885255 pre 0.958193 recall 0.920821 mcc 0.938540
+[22:11:20.105] idx 51 case 37 mean_dice 0.834129 mean_hd95 7.000000 iou 0.715455 pre 0.776667 recall 0.900773 mcc 0.835905
+[22:11:20.262] idx 52 case 38 mean_dice 0.857055 mean_hd95 7.000000 iou 0.749865 pre 0.758056 recall 0.985795 mcc 0.863669
+[22:11:20.406] idx 53 case 39 mean_dice 0.923351 mean_hd95 3.000000 iou 0.857616 pre 0.925000 recall 0.921708 mcc 0.922774
+[22:11:20.554] idx 54 case 4 mean_dice 0.811594 mean_hd95 2.236068 iou 0.682927 pre 0.682927 recall 1.000000 mcc 0.826353
+[22:11:20.720] idx 55 case 40 mean_dice 0.866597 mean_hd95 9.262583 iou 0.764597 pre 0.817787 recall 0.921604 mcc 0.866949
+[22:11:20.870] idx 56 case 41 mean_dice 0.952804 mean_hd95 3.162278 iou 0.909862 pre 0.922739 recall 0.984895 mcc 0.952401
+[22:11:21.013] idx 57 case 42 mean_dice 0.920486 mean_hd95 6.000000 iou 0.852686 pre 0.959064 recall 0.884892 mcc 0.920267
+[22:11:21.154] idx 58 case 43 mean_dice 0.904281 mean_hd95 7.810250 iou 0.825285 pre 0.865562 recall 0.946626 mcc 0.904814
+[22:11:21.296] idx 59 case 44 mean_dice 0.874227 mean_hd95 9.704048 iou 0.776557 pre 0.937500 recall 0.818954 mcc 0.874516
+[22:11:21.444] idx 60 case 45 mean_dice 0.866416 mean_hd95 5.425918 iou 0.764315 pre 0.778529 recall 0.976670 mcc 0.871495
+[22:11:21.588] idx 61 case 46 mean_dice 0.938252 mean_hd95 5.385165 iou 0.883686 pre 0.971975 recall 0.906791 mcc 0.937473
+[22:11:21.730] idx 62 case 47 mean_dice 0.869180 mean_hd95 5.000000 iou 0.768627 pre 0.831389 recall 0.910569 mcc 0.869634
+[22:11:21.871] idx 63 case 48 mean_dice 0.931258 mean_hd95 5.099020 iou 0.871359 pre 0.875398 recall 0.994732 mcc 0.932348
+[22:11:22.031] idx 64 case 49 mean_dice 0.951613 mean_hd95 2.982843 iou 0.907692 pre 0.920387 recall 0.985032 mcc 0.951835
+[22:11:22.169] idx 65 case 5 mean_dice 0.811828 mean_hd95 4.000000 iou 0.683258 pre 0.712264 recall 0.943750 mcc 0.819757
+[22:11:22.311] idx 66 case 50 mean_dice 0.937500 mean_hd95 3.162278 iou 0.882353 pre 0.902197 recall 0.975679 mcc 0.937787
+[22:11:22.454] idx 67 case 51 mean_dice 0.949554 mean_hd95 3.605551 iou 0.903953 pre 0.917001 recall 0.984503 mcc 0.949696
+[22:11:22.597] idx 68 case 52 mean_dice 0.957591 mean_hd95 2.828427 iou 0.918633 pre 0.950020 recall 0.965285 mcc 0.956785
+[22:11:22.737] idx 69 case 53 mean_dice 0.916716 mean_hd95 13.654426 iou 0.846239 pre 0.983664 recall 0.858301 mcc 0.917827
+[22:11:22.879] idx 70 case 54 mean_dice 0.936216 mean_hd95 2.236068 iou 0.880081 pre 0.918346 recall 0.954796 mcc 0.936169
+[22:11:23.019] idx 71 case 55 mean_dice 0.895885 mean_hd95 6.708204 iou 0.811406 pre 0.978877 recall 0.825866 mcc 0.898446
+[22:11:23.159] idx 72 case 56 mean_dice 0.880114 mean_hd95 10.009975 iou 0.785895 pre 0.817846 recall 0.952645 mcc 0.881902
+[22:11:23.302] idx 73 case 57 mean_dice 0.953959 mean_hd95 2.000000 iou 0.911972 pre 0.954211 recall 0.953709 mcc 0.953623
+[22:11:23.444] idx 74 case 58 mean_dice 0.962303 mean_hd95 3.146050 iou 0.927344 pre 0.951184 recall 0.973684 mcc 0.961872
+[22:11:23.583] idx 75 case 59 mean_dice 0.907801 mean_hd95 1.414214 iou 0.831169 pre 0.853333 recall 0.969697 mcc 0.909633
+[22:11:23.723] idx 76 case 6 mean_dice 0.686869 mean_hd95 5.000000 iou 0.523077 pre 0.850000 recall 0.576271 mcc 0.699773
+[22:11:23.863] idx 77 case 60 mean_dice 0.949952 mean_hd95 3.000000 iou 0.904675 pre 0.940000 recall 0.960117 mcc 0.949806
+[22:11:24.011] idx 78 case 61 mean_dice 0.957453 mean_hd95 2.828427 iou 0.918379 pre 0.949756 recall 0.965276 mcc 0.956917
+[22:11:24.153] idx 79 case 62 mean_dice 0.955440 mean_hd95 4.000000 iou 0.914681 pre 0.940216 recall 0.971164 mcc 0.954924
+[22:11:24.294] idx 80 case 63 mean_dice 0.888511 mean_hd95 6.980475 iou 0.799387 pre 0.828133 recall 0.958384 mcc 0.890161
+[22:11:24.437] idx 81 case 64 mean_dice 0.946673 mean_hd95 3.113594 iou 0.898746 pre 0.951011 recall 0.942374 mcc 0.946029
+[22:11:24.579] idx 82 case 65 mean_dice 0.960728 mean_hd95 3.605551 iou 0.924424 pre 0.944061 recall 0.977994 mcc 0.960035
+[22:11:24.720] idx 83 case 66 mean_dice 0.957881 mean_hd95 4.158966 iou 0.919166 pre 0.970217 recall 0.945854 mcc 0.957345
+[22:11:24.860] idx 84 case 67 mean_dice 0.752475 mean_hd95 4.000000 iou 0.603175 pre 0.966102 recall 0.616216 mcc 0.771457
+[22:11:25.004] idx 85 case 68 mean_dice 0.913850 mean_hd95 4.472136 iou 0.841365 pre 0.971406 recall 0.862732 mcc 0.915021
+[22:11:25.139] idx 86 case 69 mean_dice 0.914599 mean_hd95 4.123106 iou 0.842638 pre 0.941256 recall 0.889411 mcc 0.914225
+[22:11:25.272] idx 87 case 7 mean_dice 0.734694 mean_hd95 2.236068 iou 0.580645 pre 1.000000 recall 0.580645 mcc 0.761944
+[22:11:25.410] idx 88 case 70 mean_dice 0.919273 mean_hd95 5.907024 iou 0.850606 pre 0.975348 recall 0.869296 mcc 0.920296
+[22:11:25.549] idx 89 case 71 mean_dice 0.940897 mean_hd95 2.236068 iou 0.888390 pre 0.959806 recall 0.922718 mcc 0.940748
+[22:11:25.690] idx 90 case 72 mean_dice 0.937898 mean_hd95 7.347243 iou 0.883058 pre 0.957836 recall 0.918773 mcc 0.937410
+[22:11:25.826] idx 91 case 73 mean_dice 0.961883 mean_hd95 2.828427 iou 0.926564 pre 0.950318 recall 0.973732 mcc 0.961127
+[22:11:25.968] idx 92 case 74 mean_dice 0.933903 mean_hd95 6.194733 iou 0.876002 pre 0.947977 recall 0.920240 mcc 0.933382
+[22:11:26.115] idx 93 case 75 mean_dice 0.952272 mean_hd95 5.385165 iou 0.908892 pre 0.933004 recall 0.972352 mcc 0.951675
+[22:11:26.264] idx 94 case 76 mean_dice 0.941977 mean_hd95 2.828427 iou 0.890318 pre 0.941303 recall 0.942652 mcc 0.941667
+[22:11:26.410] idx 95 case 77 mean_dice 0.926458 mean_hd95 6.324555 iou 0.862992 pre 0.916516 recall 0.936619 mcc 0.924469
+[22:11:26.552] idx 96 case 78 mean_dice 0.909049 mean_hd95 5.830952 iou 0.833263 pre 0.942518 recall 0.877876 mcc 0.908870
+[22:11:26.698] idx 97 case 79 mean_dice 0.957325 mean_hd95 3.000000 iou 0.918143 pre 0.949487 recall 0.965293 mcc 0.956769
+[22:11:26.840] idx 98 case 8 mean_dice 0.820896 mean_hd95 2.059017 iou 0.696203 pre 0.964912 recall 0.714286 mcc 0.830154
+[22:11:26.983] idx 99 case 80 mean_dice 0.904943 mean_hd95 7.810250 iou 0.826389 pre 0.982118 recall 0.839013 mcc 0.907210
+[22:11:27.130] idx 100 case 81 mean_dice 0.945669 mean_hd95 3.605551 iou 0.896938 pre 0.976322 recall 0.916883 mcc 0.945205
+[22:11:27.271] idx 101 case 82 mean_dice 0.925960 mean_hd95 8.000000 iou 0.862128 pre 0.971840 recall 0.884217 mcc 0.925630
+[22:11:27.423] idx 102 case 83 mean_dice 0.939948 mean_hd95 7.141085 iou 0.886700 pre 0.949935 recall 0.930170 mcc 0.938369
+[22:11:27.563] idx 103 case 84 mean_dice 0.911616 mean_hd95 5.477390 iou 0.837587 pre 0.946885 recall 0.878880 mcc 0.911720
+[22:11:27.704] idx 104 case 85 mean_dice 0.891023 mean_hd95 12.369317 iou 0.803465 pre 0.812938 recall 0.985703 mcc 0.894056
+[22:11:27.848] idx 105 case 86 mean_dice 0.938573 mean_hd95 6.082763 iou 0.884256 pre 0.957384 recall 0.920487 mcc 0.938186
+[22:11:27.993] idx 106 case 87 mean_dice 0.844214 mean_hd95 9.896963 iou 0.730424 pre 0.749671 recall 0.966044 mcc 0.850280
+[22:11:28.139] idx 107 case 88 mean_dice 0.938788 mean_hd95 4.472136 iou 0.884637 pre 0.965871 recall 0.913182 mcc 0.937566
+[22:11:28.284] idx 108 case 89 mean_dice 0.901759 mean_hd95 6.708204 iou 0.821094 pre 0.965238 recall 0.846115 mcc 0.903048
+[22:11:28.425] idx 109 case 9 mean_dice 0.890815 mean_hd95 2.828427 iou 0.803125 pre 0.886207 recall 0.895470 mcc 0.890706
+[22:11:28.574] idx 110 case 90 mean_dice 0.941545 mean_hd95 5.099020 iou 0.889546 pre 0.924180 recall 0.959574 mcc 0.941067
+[22:11:28.718] idx 111 case 91 mean_dice 0.786077 mean_hd95 9.000000 iou 0.647552 pre 0.887809 recall 0.705263 mcc 0.790299
+[22:11:28.860] idx 112 case 92 mean_dice 0.807831 mean_hd95 11.704700 iou 0.677614 pre 0.681726 recall 0.991176 mcc 0.820468
+[22:11:29.000] idx 113 case 93 mean_dice 0.798115 mean_hd95 15.376549 iou 0.664053 pre 0.702168 recall 0.924433 mcc 0.803706
+[22:11:29.144] idx 114 case 94 mean_dice 0.840645 mean_hd95 11.704700 iou 0.725098 pre 0.958932 recall 0.748336 mcc 0.844245
+[22:11:29.286] idx 115 case 95 mean_dice 0.721749 mean_hd95 10.034913 iou 0.564638 pre 0.841986 recall 0.631561 mcc 0.726630
+[22:11:29.431] idx 116 case 96 mean_dice 0.899875 mean_hd95 7.211103 iou 0.817975 pre 0.873902 recall 0.927439 mcc 0.898264
+[22:11:29.572] idx 117 case 97 mean_dice 0.874334 mean_hd95 10.440307 iou 0.776727 pre 0.927055 recall 0.827287 mcc 0.873516
+[22:11:29.721] idx 118 case 98 mean_dice 0.928585 mean_hd95 6.000000 iou 0.866690 pre 0.932513 recall 0.924690 mcc 0.927142
+[22:11:29.863] idx 119 case 99 mean_dice 0.531538 mean_hd95 49.325237 iou 0.361969 pre 0.852919 recall 0.386067 mcc 0.570967
+[22:11:29.863] Mean class 1 mean_dice 0.843712 mean_hd95 12.186649 iou 0.756069 pre 0.868279 recall 0.839471 mcc 0.847936
+[22:11:29.864] Testing performance in best val model: mean_dice : 0.843712 mean_hd95 : 12.186649 iou : 0.756069 pre : 0.868279 recall : 0.839471 mcc : 0.847936
+[12:11:41.247] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[12:11:41.247] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[12:11:41.247] 120 test iterations per epoch
+[12:11:43.232] idx 0 case 0 mean_dice 0.811060 mean_hd95 2.011803 iou 0.682171 pre 0.977778 recall 0.692913 mcc 0.823046
+[12:11:43.322] idx 1 case 1 mean_dice 0.847059 mean_hd95 1.207107 iou 0.734694 pre 0.800000 recall 0.900000 mcc 0.848480
+[12:11:43.407] idx 2 case 10 mean_dice 0.882845 mean_hd95 2.000000 iou 0.790262 pre 0.985981 recall 0.799242 mcc 0.887618
+[12:11:43.489] idx 3 case 100 mean_dice 0.705991 mean_hd95 10.285871 iou 0.545584 pre 0.609873 recall 0.838074 mcc 0.713793
+[12:11:43.567] idx 4 case 101 mean_dice 0.802083 mean_hd95 177.426864 iou 0.669565 pre 0.719626 recall 0.905882 mcc 0.807265
+[12:11:43.648] idx 5 case 102 mean_dice 0.822006 mean_hd95 7.000000 iou 0.697802 pre 0.927528 recall 0.738042 mcc 0.826096
+[12:11:43.736] idx 6 case 103 mean_dice 0.868494 mean_hd95 6.403124 iou 0.767556 pre 0.825529 recall 0.916178 mcc 0.869051
+[12:11:43.815] idx 7 case 104 mean_dice 0.865762 mean_hd95 4.000000 iou 0.763298 pre 0.901099 recall 0.833091 mcc 0.866091
+[12:11:43.895] idx 8 case 105 mean_dice 0.889100 mean_hd95 6.324555 iou 0.800341 pre 0.825704 recall 0.963039 mcc 0.891519
+[12:11:43.975] idx 9 case 106 mean_dice 0.880126 mean_hd95 3.644996 iou 0.785915 pre 0.830357 recall 0.936242 mcc 0.881570
+[12:11:44.054] idx 10 case 107 mean_dice 0.562249 mean_hd95 267.412972 iou 0.391061 pre 0.714286 recall 0.463576 mcc 0.575244
+[12:11:44.133] idx 11 case 108 mean_dice 0.785268 mean_hd95 7.905988 iou 0.646453 pre 0.977509 recall 0.656214 mcc 0.800415
+[12:11:44.218] idx 12 case 109 mean_dice 0.252003 mean_hd95 65.041518 iou 0.144167 pre 0.935135 recall 0.145623 mcc 0.368198
+[12:11:44.297] idx 13 case 11 mean_dice 0.794118 mean_hd95 2.236068 iou 0.658537 pre 0.892562 recall 0.715232 mcc 0.798891
+[12:11:44.376] idx 14 case 110 mean_dice 0.930884 mean_hd95 4.000000 iou 0.870705 pre 0.925072 recall 0.936770 mcc 0.930629
+[12:11:44.457] idx 15 case 111 mean_dice 0.879852 mean_hd95 1.414214 iou 0.785479 pre 0.959677 recall 0.812287 mcc 0.882794
+[12:11:44.540] idx 16 case 112 mean_dice 0.920364 mean_hd95 4.123106 iou 0.852476 pre 0.984185 recall 0.864316 mcc 0.922051
+[12:11:44.617] idx 17 case 113 mean_dice 0.743455 mean_hd95 3.363331 iou 0.591667 pre 1.000000 recall 0.591667 mcc 0.769127
+[12:11:44.697] idx 18 case 114 mean_dice 0.909441 mean_hd95 2.070820 iou 0.833922 pre 0.971193 recall 0.855072 mcc 0.911199
+[12:11:44.777] idx 19 case 115 mean_dice 0.876596 mean_hd95 1.414214 iou 0.780303 pre 0.927928 recall 0.830645 mcc 0.877886
+[12:11:44.859] idx 20 case 116 mean_dice 0.864407 mean_hd95 230.613416 iou 0.761194 pre 0.864407 recall 0.864407 mcc 0.864223
+[12:11:44.939] idx 21 case 117 mean_dice 0.018182 mean_hd95 10.032419 iou 0.009174 pre 0.030303 recall 0.012987 mcc 0.019650
+[12:11:45.019] idx 22 case 118 mean_dice 0.654762 mean_hd95 249.402583 iou 0.486726 pre 0.679012 recall 0.632184 mcc 0.654738
+[12:11:45.097] idx 23 case 119 mean_dice 0.793296 mean_hd95 7.000000 iou 0.657407 pre 0.697789 recall 0.919094 mcc 0.800573
+[12:11:45.176] idx 24 case 12 mean_dice 0.920635 mean_hd95 1.000000 iou 0.852941 pre 0.920635 recall 0.920635 mcc 0.920616
+[12:11:45.255] idx 25 case 13 mean_dice 0.900763 mean_hd95 2.000000 iou 0.819444 pre 0.951613 recall 0.855072 mcc 0.901956
+[12:11:45.334] idx 26 case 14 mean_dice 0.832298 mean_hd95 3.105480 iou 0.712766 pre 0.770115 recall 0.905405 mcc 0.834925
+[12:11:45.416] idx 27 case 15 mean_dice 0.771277 mean_hd95 8.962311 iou 0.627706 pre 0.941558 recall 0.653153 mcc 0.783922
+[12:11:45.497] idx 28 case 16 mean_dice 0.608434 mean_hd95 8.375393 iou 0.437229 pre 0.961905 recall 0.444934 mcc 0.654030
+[12:11:45.573] idx 29 case 17 mean_dice 0.676768 mean_hd95 3.539060 iou 0.511450 pre 0.656863 recall 0.697917 mcc 0.676957
+[12:11:45.655] idx 30 case 18 mean_dice 0.808377 mean_hd95 4.709675 iou 0.678383 pre 0.784553 recall 0.833693 mcc 0.808402
+[12:11:45.735] idx 31 case 19 mean_dice 0.852244 mean_hd95 8.067064 iou 0.742531 pre 0.786778 recall 0.929593 mcc 0.854673
+[12:11:45.814] idx 32 case 2 mean_dice 0.819672 mean_hd95 1.414214 iou 0.694444 pre 0.694444 recall 1.000000 mcc 0.833298
+[12:11:45.894] idx 33 case 20 mean_dice 0.651429 mean_hd95 2.914214 iou 0.483051 pre 0.934426 recall 0.500000 mcc 0.683440
+[12:11:45.974] idx 34 case 21 mean_dice 0.802309 mean_hd95 215.617949 iou 0.669880 pre 0.712212 recall 0.918502 mcc 0.808077
+[12:11:46.055] idx 35 case 22 mean_dice 0.949993 mean_hd95 3.000000 iou 0.904749 pre 0.985549 recall 0.916913 mcc 0.949935
+[12:11:46.137] idx 36 case 23 mean_dice 0.936102 mean_hd95 4.152989 iou 0.879880 pre 0.979114 recall 0.896710 mcc 0.936409
+[12:11:46.217] idx 37 case 24 mean_dice 0.846847 mean_hd95 5.830952 iou 0.734375 pre 0.740157 recall 0.989474 mcc 0.855272
+[12:11:46.297] idx 38 case 25 mean_dice 0.915504 mean_hd95 4.000000 iou 0.844174 pre 0.902905 recall 0.928459 mcc 0.915176
+[12:11:46.381] idx 39 case 26 mean_dice 0.913589 mean_hd95 7.810250 iou 0.840923 pre 0.856961 recall 0.978229 mcc 0.914654
+[12:11:46.461] idx 40 case 27 mean_dice 0.962778 mean_hd95 2.000000 iou 0.928227 pre 0.975239 recall 0.950631 mcc 0.962600
+[12:11:46.540] idx 41 case 28 mean_dice 0.937079 mean_hd95 2.828427 iou 0.881607 pre 0.962308 recall 0.913139 mcc 0.937082
+[12:11:46.622] idx 42 case 29 mean_dice 0.924332 mean_hd95 4.472136 iou 0.859310 pre 0.965143 recall 0.886833 mcc 0.924778
+[12:11:46.704] idx 43 case 3 mean_dice 0.595420 mean_hd95 9.722149 iou 0.423913 pre 0.975000 recall 0.428571 mcc 0.646281
+[12:11:46.791] idx 44 case 30 mean_dice 0.931096 mean_hd95 6.403124 iou 0.871075 pre 0.933959 recall 0.928250 mcc 0.930276
+[12:11:46.873] idx 45 case 31 mean_dice 0.942464 mean_hd95 3.605551 iou 0.891189 pre 0.984751 recall 0.903660 mcc 0.942953
+[12:11:46.954] idx 46 case 32 mean_dice 0.917778 mean_hd95 7.885852 iou 0.848049 pre 0.948802 recall 0.888718 mcc 0.917281
+[12:11:47.035] idx 47 case 33 mean_dice 0.850640 mean_hd95 7.071068 iou 0.740099 pre 0.845429 recall 0.855916 mcc 0.850053
+[12:11:47.115] idx 48 case 34 mean_dice 0.936722 mean_hd95 3.000000 iou 0.880976 pre 0.929585 recall 0.943970 mcc 0.936291
+[12:11:47.195] idx 49 case 35 mean_dice 0.921215 mean_hd95 5.079216 iou 0.853938 pre 0.989801 recall 0.861518 mcc 0.922834
+[12:11:47.276] idx 50 case 36 mean_dice 0.947197 mean_hd95 3.000000 iou 0.899691 pre 0.955536 recall 0.939003 mcc 0.946544
+[12:11:47.357] idx 51 case 37 mean_dice 0.854289 mean_hd95 6.000000 iou 0.745641 pre 0.785097 recall 0.936856 mcc 0.857175
+[12:11:47.439] idx 52 case 38 mean_dice 0.851314 mean_hd95 7.071068 iou 0.741119 pre 0.753695 recall 0.977983 mcc 0.857720
+[12:11:47.521] idx 53 case 39 mean_dice 0.920780 mean_hd95 3.605551 iou 0.853189 pre 0.916835 recall 0.924759 mcc 0.920187
+[12:11:47.603] idx 54 case 4 mean_dice 0.819672 mean_hd95 2.070820 iou 0.694444 pre 0.757576 recall 0.892857 mcc 0.822399
+[12:11:47.683] idx 55 case 40 mean_dice 0.894562 mean_hd95 10.000000 iou 0.809238 pre 0.837544 recall 0.959911 mcc 0.895705
+[12:11:47.767] idx 56 case 41 mean_dice 0.948452 mean_hd95 3.561224 iou 0.901957 pre 0.912158 recall 0.987753 mcc 0.948211
+[12:11:47.850] idx 57 case 42 mean_dice 0.945299 mean_hd95 3.000000 iou 0.896273 pre 0.961264 recall 0.929856 mcc 0.944740
+[12:11:47.929] idx 58 case 43 mean_dice 0.911692 mean_hd95 3.921110 iou 0.837715 pre 0.893617 recall 0.930514 mcc 0.911537
+[12:11:48.009] idx 59 case 44 mean_dice 0.853489 mean_hd95 11.670463 iou 0.744422 pre 0.952124 recall 0.773371 mcc 0.856249
+[12:11:48.094] idx 60 case 45 mean_dice 0.867198 mean_hd95 4.242641 iou 0.765534 pre 0.777778 recall 0.979852 mcc 0.872496
+[12:11:48.176] idx 61 case 46 mean_dice 0.941228 mean_hd95 4.123106 iou 0.888980 pre 0.966041 recall 0.917657 mcc 0.940237
+[12:11:48.263] idx 62 case 47 mean_dice 0.845511 mean_hd95 7.210408 iou 0.732369 pre 0.767773 recall 0.940767 mcc 0.849348
+[12:11:48.349] idx 63 case 48 mean_dice 0.946533 mean_hd95 4.000000 iou 0.898494 pre 0.913350 recall 0.982219 mcc 0.946524
+[12:11:48.436] idx 64 case 49 mean_dice 0.948696 mean_hd95 3.000000 iou 0.902400 pre 0.924590 recall 0.974093 mcc 0.948672
+[12:11:48.520] idx 65 case 5 mean_dice 0.876791 mean_hd95 2.129837 iou 0.780612 pre 0.809524 recall 0.956250 mcc 0.879756
+[12:11:48.607] idx 66 case 50 mean_dice 0.933549 mean_hd95 3.605551 iou 0.875378 pre 0.890200 recall 0.981335 mcc 0.934199
+[12:11:48.691] idx 67 case 51 mean_dice 0.932488 mean_hd95 7.071068 iou 0.873515 pre 0.888499 recall 0.981059 mcc 0.933020
+[12:11:48.774] idx 68 case 52 mean_dice 0.957619 mean_hd95 3.000000 iou 0.918684 pre 0.951616 recall 0.963698 mcc 0.956802
+[12:11:48.856] idx 69 case 53 mean_dice 0.909255 mean_hd95 12.980625 iou 0.833608 pre 0.981224 recall 0.847121 mcc 0.910608
+[12:11:48.936] idx 70 case 54 mean_dice 0.930533 mean_hd95 3.000000 iou 0.870091 pre 0.909474 recall 0.952591 mcc 0.930538
+[12:11:49.017] idx 71 case 55 mean_dice 0.913328 mean_hd95 6.324555 iou 0.840482 pre 0.940162 recall 0.887984 mcc 0.913070
+[12:11:49.104] idx 72 case 56 mean_dice 0.892430 mean_hd95 9.219544 iou 0.805755 pre 0.830508 recall 0.964330 mcc 0.894231
+[12:11:49.183] idx 73 case 57 mean_dice 0.954425 mean_hd95 2.000000 iou 0.912823 pre 0.961559 recall 0.947396 mcc 0.954121
+[12:11:49.270] idx 74 case 58 mean_dice 0.963869 mean_hd95 3.000000 iou 0.930259 pre 0.950029 recall 0.978119 mcc 0.963495
+[12:11:49.352] idx 75 case 59 mean_dice 0.862069 mean_hd95 2.000000 iou 0.757576 pre 1.000000 recall 0.757576 mcc 0.870362
+[12:11:49.437] idx 76 case 6 mean_dice 0.621469 mean_hd95 6.191569 iou 0.450820 pre 0.932203 recall 0.466102 mcc 0.659072
+[12:11:49.521] idx 77 case 60 mean_dice 0.927734 mean_hd95 3.000000 iou 0.865209 pre 0.931373 recall 0.924125 mcc 0.927458
+[12:11:49.612] idx 78 case 61 mean_dice 0.956204 mean_hd95 2.828427 iou 0.916084 pre 0.956763 recall 0.955646 mcc 0.955625
+[12:11:49.697] idx 79 case 62 mean_dice 0.953777 mean_hd95 5.000000 iou 0.911638 pre 0.926848 recall 0.982318 mcc 0.953515
+[12:11:49.783] idx 80 case 63 mean_dice 0.889831 mean_hd95 5.843542 iou 0.801527 pre 0.826338 recall 0.963892 mcc 0.891758
+[12:11:49.867] idx 81 case 64 mean_dice 0.945891 mean_hd95 3.583388 iou 0.897336 pre 0.952956 recall 0.938929 mcc 0.945255
+[12:11:49.955] idx 82 case 65 mean_dice 0.967324 mean_hd95 2.828427 iou 0.936716 pre 0.962929 recall 0.971759 mcc 0.966637
+[12:11:50.044] idx 83 case 66 mean_dice 0.966265 mean_hd95 3.605551 iou 0.934733 pre 0.977516 recall 0.955271 mcc 0.965838
+[12:11:50.127] idx 84 case 67 mean_dice 0.654545 mean_hd95 4.176896 iou 0.486487 pre 1.000000 recall 0.486486 mcc 0.697359
+[12:11:50.212] idx 85 case 68 mean_dice 0.932661 mean_hd95 3.162278 iou 0.873819 pre 0.981061 recall 0.888813 mcc 0.933452
+[12:11:50.297] idx 86 case 69 mean_dice 0.921110 mean_hd95 3.605551 iou 0.853757 pre 0.935299 recall 0.907344 mcc 0.920517
+[12:11:50.379] idx 87 case 7 mean_dice 0.680851 mean_hd95 3.000000 iou 0.516129 pre 1.000000 recall 0.516129 mcc 0.718360
+[12:11:50.459] idx 88 case 70 mean_dice 0.896490 mean_hd95 7.211103 iou 0.812398 pre 0.958922 recall 0.841690 mcc 0.897759
+[12:11:50.538] idx 89 case 71 mean_dice 0.944005 mean_hd95 2.236068 iou 0.893949 pre 0.974468 recall 0.915390 mcc 0.944160
+[12:11:50.622] idx 90 case 72 mean_dice 0.949063 mean_hd95 5.000000 iou 0.903063 pre 0.934641 recall 0.963937 mcc 0.948586
+[12:11:50.703] idx 91 case 73 mean_dice 0.965099 mean_hd95 2.828427 iou 0.932551 pre 0.951258 recall 0.979348 mcc 0.964443
+[12:11:50.789] idx 92 case 74 mean_dice 0.932129 mean_hd95 4.472136 iou 0.872885 pre 0.979682 recall 0.888978 mcc 0.932628
+[12:11:50.871] idx 93 case 75 mean_dice 0.954498 mean_hd95 5.385165 iou 0.912957 pre 0.943465 recall 0.965792 mcc 0.953803
+[12:11:50.952] idx 94 case 76 mean_dice 0.937363 mean_hd95 3.000000 iou 0.882111 pre 0.952628 recall 0.922581 mcc 0.937155
+[12:11:51.036] idx 95 case 77 mean_dice 0.923381 mean_hd95 6.082763 iou 0.857667 pre 0.914039 recall 0.932916 mcc 0.921301
+[12:11:51.121] idx 96 case 78 mean_dice 0.914598 mean_hd95 4.472136 iou 0.842635 pre 0.942281 recall 0.888496 mcc 0.914279
+[12:11:51.201] idx 97 case 79 mean_dice 0.947059 mean_hd95 3.605551 iou 0.899441 pre 0.940211 recall 0.954007 mcc 0.946354
+[12:11:51.279] idx 98 case 8 mean_dice 0.857143 mean_hd95 1.000000 iou 0.750000 pre 0.857143 recall 0.857143 mcc 0.857101
+[12:11:51.369] idx 99 case 80 mean_dice 0.908010 mean_hd95 7.071068 iou 0.831519 pre 0.971218 recall 0.852526 mcc 0.909400
+[12:11:51.456] idx 100 case 81 mean_dice 0.938706 mean_hd95 6.264107 iou 0.884492 pre 0.989708 recall 0.892703 mcc 0.938952
+[12:11:51.539] idx 101 case 82 mean_dice 0.926814 mean_hd95 6.708204 iou 0.863610 pre 0.978270 recall 0.880501 mcc 0.926768
+[12:11:51.629] idx 102 case 83 mean_dice 0.955969 mean_hd95 4.000000 iou 0.915653 pre 0.968553 recall 0.943708 mcc 0.954860
+[12:11:51.713] idx 103 case 84 mean_dice 0.918672 mean_hd95 4.000000 iou 0.849577 pre 0.919512 recall 0.917833 mcc 0.918160
+[12:11:51.799] idx 104 case 85 mean_dice 0.964902 mean_hd95 2.295304 iou 0.932185 pre 0.947820 recall 0.982612 mcc 0.964706
+[12:11:51.883] idx 105 case 86 mean_dice 0.945133 mean_hd95 3.822498 iou 0.895974 pre 0.980803 recall 0.911968 mcc 0.945269
+[12:11:51.965] idx 106 case 87 mean_dice 0.825941 mean_hd95 10.770330 iou 0.703492 pre 0.736213 recall 0.940577 mcc 0.831320
+[12:11:52.049] idx 107 case 88 mean_dice 0.944572 mean_hd95 5.000000 iou 0.894966 pre 0.966677 recall 0.923455 mcc 0.943366
+[12:11:52.134] idx 108 case 89 mean_dice 0.911438 mean_hd95 4.158966 iou 0.837287 pre 0.926996 recall 0.896394 mcc 0.910909
+[12:11:52.214] idx 109 case 9 mean_dice 0.891608 mean_hd95 2.443394 iou 0.804416 pre 0.894737 recall 0.888502 mcc 0.891495
+[12:11:52.297] idx 110 case 90 mean_dice 0.935809 mean_hd95 4.123106 iou 0.879362 pre 0.933333 recall 0.938298 mcc 0.935112
+[12:11:52.377] idx 111 case 91 mean_dice 0.740030 mean_hd95 16.186238 iou 0.587339 pre 0.780982 recall 0.703158 mcc 0.739712
+[12:11:52.459] idx 112 case 92 mean_dice 0.868125 mean_hd95 8.062258 iou 0.766979 pre 0.790109 recall 0.963235 mcc 0.871319
+[12:11:52.541] idx 113 case 93 mean_dice 0.823158 mean_hd95 10.805073 iou 0.699464 pre 0.737612 recall 0.931150 mcc 0.827043
+[12:11:52.624] idx 114 case 94 mean_dice 0.814129 mean_hd95 13.038405 iou 0.686524 pre 0.883559 recall 0.754816 mcc 0.812940
+[12:11:52.705] idx 115 case 95 mean_dice 0.845903 mean_hd95 8.602325 iou 0.732956 pre 0.910261 recall 0.790044 mcc 0.846436
+[12:11:52.789] idx 116 case 96 mean_dice 0.887942 mean_hd95 9.000000 iou 0.798467 pre 0.868017 recall 0.908803 mcc 0.885935
+[12:11:52.871] idx 117 case 97 mean_dice 0.851140 mean_hd95 14.946072 iou 0.740856 pre 0.955344 recall 0.767432 mcc 0.853858
+[12:11:52.954] idx 118 case 98 mean_dice 0.924525 mean_hd95 5.385165 iou 0.859643 pre 0.941142 recall 0.908484 mcc 0.923161
+[12:11:53.038] idx 119 case 99 mean_dice 0.520710 mean_hd95 51.170071 iou 0.352000 pre 0.839054 recall 0.377488 mcc 0.559848
+[12:11:53.038] Mean class 1 mean_dice 0.859076 mean_hd95 15.280676 iou 0.771247 pre 0.890767 recall 0.851320 mcc 0.864110
+[12:11:53.038] Testing performance in best val model: mean_dice : 0.859076 mean_hd95 : 15.280676 iou : 0.771247 pre : 0.890767 recall : 0.851320 mcc : 0.864110
+[01:01:18.244] Namespace(volume_path='./data/Synapse/test_vol_h5', dataset='Synapse', num_classes=2, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=512, is_savenii=True, n_skip=3, vit_name='R50-ViT-B_16', test_save_dir='../predictions', deterministic=1, base_lr=0.001, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse512')
+[01:01:18.245] TU_pretrain_R50-ViT-B_16_skip3_bs24_lr0.001_512
+[01:01:18.246] 120 test iterations per epoch
+[01:01:21.511] idx 0 case 0 mean_dice 0.739496 mean_hd95 2.837006 iou 0.586667 pre 0.792793 recall 0.692913 mcc 0.741056
+[01:01:21.631] idx 1 case 1 mean_dice 0.717391 mean_hd95 7.102424 iou 0.559322 pre 0.634615 recall 0.825000 mcc 0.723479
+[01:01:21.747] idx 2 case 10 mean_dice 0.930502 mean_hd95 1.000000 iou 0.870036 pre 0.948819 recall 0.912879 mcc 0.930607
+[01:01:21.869] idx 3 case 100 mean_dice 0.544747 mean_hd95 13.601471 iou 0.374332 pre 0.553672 recall 0.536105 mcc 0.543251
+[01:01:21.988] idx 4 case 101 mean_dice 0.744898 mean_hd95 175.820883 iou 0.593496 pre 0.657658 recall 0.858824 mcc 0.751360
+[01:01:22.107] idx 5 case 102 mean_dice 0.822954 mean_hd95 7.211103 iou 0.699169 pre 0.969679 recall 0.714797 mcc 0.831376
+[01:01:22.227] idx 6 case 103 mean_dice 0.783211 mean_hd95 5.656854 iou 0.643670 pre 0.809481 recall 0.758592 mcc 0.782668
+[01:01:22.342] idx 7 case 104 mean_dice 0.827640 mean_hd95 6.000000 iou 0.705960 pre 0.889816 recall 0.773585 mcc 0.829254
+[01:01:22.456] idx 8 case 105 mean_dice 0.860735 mean_hd95 5.979033 iou 0.755518 pre 0.813528 recall 0.913758 mcc 0.861919
+[01:01:22.568] idx 9 case 106 mean_dice 0.792079 mean_hd95 10.552017 iou 0.655738 pre 0.684597 recall 0.939597 mcc 0.801775
+[01:01:22.686] idx 10 case 107 mean_dice 0.616667 mean_hd95 5.000000 iou 0.445783 pre 0.831461 recall 0.490066 mcc 0.638184
+[01:01:22.802] idx 11 case 108 mean_dice 0.848369 mean_hd95 5.000000 iou 0.736667 pre 0.944444 recall 0.770035 mcc 0.852368
+[01:01:22.919] idx 12 case 109 mean_dice 0.281588 mean_hd95 30.747039 iou 0.163866 pre 0.989848 recall 0.164141 mcc 0.402300
+[01:01:23.030] idx 13 case 11 mean_dice 0.842105 mean_hd95 2.070820 iou 0.727273 pre 0.973913 recall 0.741722 mcc 0.849854
+[01:01:23.146] idx 14 case 110 mean_dice 0.857863 mean_hd95 98.880588 iou 0.751103 pre 0.890167 recall 0.827821 mcc 0.857893
+[01:01:23.262] idx 15 case 111 mean_dice 0.865562 mean_hd95 1.414214 iou 0.762987 pre 0.940000 recall 0.802048 mcc 0.868155
+[01:01:23.380] idx 16 case 112 mean_dice 0.856821 mean_hd95 346.671663 iou 0.749507 pre 0.906921 recall 0.811966 mcc 0.857655
+[01:01:23.496] idx 17 case 113 mean_dice 0.712644 mean_hd95 2.854163 iou 0.553571 pre 0.659574 recall 0.775000 mcc 0.714821
+[01:01:23.612] idx 18 case 114 mean_dice 0.865191 mean_hd95 2.914214 iou 0.762411 pre 0.972851 recall 0.778986 mcc 0.870421
+[01:01:23.729] idx 19 case 115 mean_dice 0.853333 mean_hd95 1.000000 iou 0.744186 pre 0.950495 recall 0.774194 mcc 0.857768
+[01:01:23.852] idx 20 case 116 mean_dice 0.845730 mean_hd95 230.475993 iou 0.732697 pre 0.825269 recall 0.867232 mcc 0.845777
+[01:01:23.949] idx 21 case 117 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[01:01:24.064] idx 22 case 118 mean_dice 0.113821 mean_hd95 229.727041 iou 0.060345 pre 1.000000 recall 0.060345 mcc 0.245499
+[01:01:24.185] idx 23 case 119 mean_dice 0.790885 mean_hd95 6.403124 iou 0.654102 pre 0.675057 recall 0.954693 mcc 0.802530
+[01:01:24.307] idx 24 case 12 mean_dice 0.944882 mean_hd95 1.000000 iou 0.895522 pre 0.937500 recall 0.952381 mcc 0.944898
+[01:01:24.425] idx 25 case 13 mean_dice 0.915493 mean_hd95 1.882843 iou 0.844156 pre 0.890411 recall 0.942029 mcc 0.915766
+[01:01:24.552] idx 26 case 14 mean_dice 0.704225 mean_hd95 8.971799 iou 0.543478 pre 0.603865 recall 0.844595 mcc 0.713973
+[01:01:24.655] idx 27 case 15 mean_dice 0.000000 mean_hd95 0.000000 iou 0.000000 pre 0.000000 recall 0.000000 mcc 0.000000
+[01:01:24.765] idx 28 case 16 mean_dice 0.714286 mean_hd95 5.000000 iou 0.555556 pre 0.948905 recall 0.572687 mcc 0.737013
+[01:01:24.884] idx 29 case 17 mean_dice 0.822917 mean_hd95 2.188854 iou 0.699115 pre 0.822917 recall 0.822917 mcc 0.822852
+[01:01:24.996] idx 30 case 18 mean_dice 0.826263 mean_hd95 5.719505 iou 0.703959 pre 0.776091 recall 0.883369 mcc 0.827673
+[01:01:25.108] idx 31 case 19 mean_dice 0.795749 mean_hd95 10.648639 iou 0.660783 pre 0.686056 recall 0.947195 mcc 0.805369
+[01:01:25.222] idx 32 case 2 mean_dice 0.828829 mean_hd95 1.000000 iou 0.707692 pre 0.754098 recall 0.920000 mcc 0.832895
+[01:01:25.333] idx 33 case 20 mean_dice 0.240602 mean_hd95 8.396969 iou 0.136752 pre 0.842105 recall 0.140351 mcc 0.343698
+[01:01:25.450] idx 34 case 21 mean_dice 0.937712 mean_hd95 2.000000 iou 0.882729 pre 0.965035 recall 0.911894 mcc 0.937881
+[01:01:25.564] idx 35 case 22 mean_dice 0.938103 mean_hd95 4.098485 iou 0.883422 pre 0.993684 recall 0.888411 mcc 0.938773
+[01:01:25.682] idx 36 case 23 mean_dice 0.926947 mean_hd95 6.082763 iou 0.863841 pre 0.977919 recall 0.881025 mcc 0.927535
+[01:01:25.799] idx 37 case 24 mean_dice 0.839305 mean_hd95 6.033105 iou 0.723106 pre 0.783181 recall 0.904094 mcc 0.840919
+[01:01:25.913] idx 38 case 25 mean_dice 0.926567 mean_hd95 3.339587 iou 0.863181 pre 0.906697 recall 0.947327 mcc 0.926425
+[01:01:26.028] idx 39 case 26 mean_dice 0.927098 mean_hd95 6.064911 iou 0.864103 pre 0.908996 recall 0.945936 mcc 0.926496
+[01:01:26.144] idx 40 case 27 mean_dice 0.951171 mean_hd95 5.346648 iou 0.906889 pre 0.979651 recall 0.924301 mcc 0.951247
+[01:01:26.260] idx 41 case 28 mean_dice 0.923954 mean_hd95 3.605551 iou 0.858657 pre 0.964286 recall 0.886861 mcc 0.924389
+[01:01:26.375] idx 42 case 29 mean_dice 0.938516 mean_hd95 5.480256 iou 0.884154 pre 0.931930 recall 0.945196 mcc 0.938206
+[01:01:26.495] idx 43 case 3 mean_dice 0.598485 mean_hd95 10.367626 iou 0.427027 pre 0.963415 recall 0.434066 mcc 0.646532
+[01:01:26.617] idx 44 case 30 mean_dice 0.929745 mean_hd95 5.044559 iou 0.868714 pre 0.931246 recall 0.928250 mcc 0.928905
+[01:01:26.732] idx 45 case 31 mean_dice 0.953159 mean_hd95 2.828427 iou 0.910510 pre 0.964719 recall 0.941873 mcc 0.952898
+[01:01:26.847] idx 46 case 32 mean_dice 0.935573 mean_hd95 4.242641 iou 0.878946 pre 0.938176 recall 0.932985 mcc 0.934770
+[01:01:26.966] idx 47 case 33 mean_dice 0.817587 mean_hd95 8.639697 iou 0.691456 pre 0.801835 recall 0.833969 mcc 0.816999
+[01:01:27.089] idx 48 case 34 mean_dice 0.902067 mean_hd95 6.000000 iou 0.821605 pre 0.836986 recall 0.978122 mcc 0.904086
+[01:01:27.207] idx 49 case 35 mean_dice 0.913539 mean_hd95 5.656854 iou 0.840840 pre 0.982626 recall 0.853529 mcc 0.915144
+[01:01:27.323] idx 50 case 36 mean_dice 0.958956 mean_hd95 2.236068 iou 0.921149 pre 0.958675 recall 0.959238 mcc 0.958415
+[01:01:27.432] idx 51 case 37 mean_dice 0.820099 mean_hd95 5.830952 iou 0.695058 pre 0.790670 recall 0.851804 mcc 0.820117
+[01:01:27.560] idx 52 case 38 mean_dice 0.840633 mean_hd95 7.071068 iou 0.725079 pre 0.735106 recall 0.981534 mcc 0.848546
+[01:01:27.681] idx 53 case 39 mean_dice 0.898275 mean_hd95 4.242641 iou 0.815336 pre 0.883481 recall 0.913574 mcc 0.897621
+[01:01:27.794] idx 54 case 4 mean_dice 0.819672 mean_hd95 1.560660 iou 0.694444 pre 0.757576 recall 0.892857 mcc 0.822399
+[01:01:27.907] idx 55 case 40 mean_dice 0.889701 mean_hd95 10.630146 iou 0.801317 pre 0.817774 recall 0.975501 mcc 0.892187
+[01:01:28.027] idx 56 case 41 mean_dice 0.941908 mean_hd95 4.000000 iou 0.890195 pre 0.898610 recall 0.989590 mcc 0.941885
+[01:01:28.143] idx 57 case 42 mean_dice 0.945224 mean_hd95 3.000000 iou 0.896137 pre 0.951686 recall 0.938849 mcc 0.944545
+[01:01:28.259] idx 58 case 43 mean_dice 0.885128 mean_hd95 5.624012 iou 0.793928 pre 0.901776 recall 0.869084 mcc 0.884851
+[01:01:28.374] idx 59 case 44 mean_dice 0.861142 mean_hd95 10.630146 iou 0.756145 pre 0.932193 recall 0.800155 mcc 0.861793
+[01:01:28.489] idx 60 case 45 mean_dice 0.873226 mean_hd95 4.277065 iou 0.774979 pre 0.788215 recall 0.978791 mcc 0.877881
+[01:01:28.606] idx 61 case 46 mean_dice 0.947134 mean_hd95 5.099020 iou 0.899578 pre 0.954483 recall 0.939898 mcc 0.945958
+[01:01:28.724] idx 62 case 47 mean_dice 0.849587 mean_hd95 5.250357 iou 0.738506 pre 0.808176 recall 0.895470 mcc 0.850190
+[01:01:28.841] idx 63 case 48 mean_dice 0.944884 mean_hd95 4.000000 iou 0.895527 pre 0.910284 recall 0.982219 mcc 0.944913
+[01:01:28.982] idx 64 case 49 mean_dice 0.954835 mean_hd95 2.236068 iou 0.913574 pre 0.920406 recall 0.991940 mcc 0.955200
+[01:01:29.102] idx 65 case 5 mean_dice 0.809278 mean_hd95 2.384158 iou 0.679654 pre 0.688596 recall 0.981250 mcc 0.821880
+[01:01:29.223] idx 66 case 50 mean_dice 0.943833 mean_hd95 2.236068 iou 0.893639 pre 0.919528 recall 0.969457 mcc 0.943775
+[01:01:29.343] idx 67 case 51 mean_dice 0.941055 mean_hd95 5.000000 iou 0.888673 pre 0.902728 recall 0.982781 mcc 0.941370
+[01:01:29.468] idx 68 case 52 mean_dice 0.959070 mean_hd95 2.236068 iou 0.921359 pre 0.960597 recall 0.957548 mcc 0.958270
+[01:01:29.580] idx 69 case 53 mean_dice 0.915017 mean_hd95 13.000000 iou 0.843347 pre 0.978669 recall 0.859139 mcc 0.915908
+[01:01:29.706] idx 70 case 54 mean_dice 0.924628 mean_hd95 2.828427 iou 0.859822 pre 0.891505 recall 0.960309 mcc 0.925000
+[01:01:29.826] idx 71 case 55 mean_dice 0.909876 mean_hd95 6.179480 iou 0.834653 pre 0.967853 recall 0.858452 mcc 0.910896
+[01:01:29.942] idx 72 case 56 mean_dice 0.882254 mean_hd95 9.026854 iou 0.789315 pre 0.813929 recall 0.963100 mcc 0.884621
+[01:01:30.052] idx 73 case 57 mean_dice 0.962614 mean_hd95 1.414214 iou 0.927923 pre 0.956861 recall 0.968438 mcc 0.962357
+[01:01:30.170] idx 74 case 58 mean_dice 0.963334 mean_hd95 3.000000 iou 0.929261 pre 0.959519 recall 0.967179 mcc 0.962860
+[01:01:30.284] idx 75 case 59 mean_dice 0.917293 mean_hd95 1.000000 iou 0.847222 pre 0.910448 recall 0.924242 mcc 0.917298
+[01:01:30.401] idx 76 case 6 mean_dice 0.705882 mean_hd95 5.227785 iou 0.545455 pre 0.956522 recall 0.559322 mcc 0.731356
+[01:01:30.517] idx 77 case 60 mean_dice 0.934442 mean_hd95 2.236068 iou 0.876951 pre 0.939961 recall 0.928988 mcc 0.934202
+[01:01:30.639] idx 78 case 61 mean_dice 0.953815 mean_hd95 3.605551 iou 0.911707 pre 0.955490 recall 0.952145 mcc 0.953205
+[01:01:30.771] idx 79 case 62 mean_dice 0.955977 mean_hd95 4.000000 iou 0.915666 pre 0.937958 recall 0.974701 mcc 0.955520
+[01:01:30.890] idx 80 case 63 mean_dice 0.901734 mean_hd95 5.000000 iou 0.821053 pre 0.854326 recall 0.954712 mcc 0.902492
+[01:01:31.005] idx 81 case 64 mean_dice 0.936824 mean_hd95 4.055398 iou 0.881156 pre 0.937853 recall 0.935797 mcc 0.936046
+[01:01:31.127] idx 82 case 65 mean_dice 0.968100 mean_hd95 2.828427 iou 0.938172 pre 0.959640 recall 0.976710 mcc 0.967455
+[01:01:31.248] idx 83 case 66 mean_dice 0.965927 mean_hd95 3.000000 iou 0.934100 pre 0.975460 recall 0.956579 mcc 0.965475
+[01:01:31.367] idx 84 case 67 mean_dice 0.751678 mean_hd95 4.123106 iou 0.602151 pre 0.991150 recall 0.605405 mcc 0.774516
+[01:01:31.489] idx 85 case 68 mean_dice 0.907216 mean_hd95 6.264107 iou 0.830189 pre 0.978554 recall 0.845573 mcc 0.909180
+[01:01:31.624] idx 86 case 69 mean_dice 0.921196 mean_hd95 4.123106 iou 0.853905 pre 0.942385 recall 0.900939 mcc 0.920739
+[01:01:31.762] idx 87 case 7 mean_dice 0.794872 mean_hd95 2.000000 iou 0.659575 pre 0.984127 recall 0.666667 mcc 0.809940
+[01:01:31.877] idx 88 case 70 mean_dice 0.907441 mean_hd95 6.371697 iou 0.830565 pre 0.979752 recall 0.845070 mcc 0.909368
+[01:01:31.990] idx 89 case 71 mean_dice 0.930977 mean_hd95 3.000000 iou 0.870867 pre 0.931909 recall 0.930047 mcc 0.930580
+[01:01:32.111] idx 90 case 72 mean_dice 0.944682 mean_hd95 4.000000 iou 0.895164 pre 0.960306 recall 0.929558 mcc 0.944187
+[01:01:32.233] idx 91 case 73 mean_dice 0.954358 mean_hd95 4.061553 iou 0.912700 pre 0.927363 recall 0.982971 mcc 0.953769
+[01:01:32.349] idx 92 case 74 mean_dice 0.935857 mean_hd95 5.000000 iou 0.879446 pre 0.930297 recall 0.941483 mcc 0.935254
+[01:01:32.463] idx 93 case 75 mean_dice 0.951242 mean_hd95 5.656854 iou 0.907018 pre 0.942706 recall 0.959934 mcc 0.950468
+[01:01:32.579] idx 94 case 76 mean_dice 0.949982 mean_hd95 2.000000 iou 0.904730 pre 0.940309 recall 0.959857 mcc 0.949763
+[01:01:32.706] idx 95 case 77 mean_dice 0.932176 mean_hd95 5.830952 iou 0.872968 pre 0.923895 recall 0.940607 mcc 0.930332
+[01:01:32.831] idx 96 case 78 mean_dice 0.926516 mean_hd95 5.830952 iou 0.863093 pre 0.926926 recall 0.926106 mcc 0.925878
+[01:01:32.957] idx 97 case 79 mean_dice 0.959429 mean_hd95 2.828427 iou 0.922022 pre 0.951443 recall 0.967551 mcc 0.958903
+[01:01:33.068] idx 98 case 8 mean_dice 0.872483 mean_hd95 1.472792 iou 0.773810 pre 0.902778 recall 0.844156 mcc 0.872939
+[01:01:33.179] idx 99 case 80 mean_dice 0.927554 mean_hd95 3.081139 iou 0.864895 pre 0.958046 recall 0.898942 mcc 0.927571
+[01:01:33.295] idx 100 case 81 mean_dice 0.947357 mean_hd95 5.691674 iou 0.899979 pre 0.982155 recall 0.914940 mcc 0.947059
+[01:01:33.409] idx 101 case 82 mean_dice 0.914119 mean_hd95 9.000000 iou 0.841823 pre 0.975805 recall 0.859769 mcc 0.914419
+[01:01:33.524] idx 102 case 83 mean_dice 0.944073 mean_hd95 5.656854 iou 0.894071 pre 0.962672 recall 0.926179 mcc 0.942751
+[01:01:33.640] idx 103 case 84 mean_dice 0.945014 mean_hd95 2.000000 iou 0.895760 pre 0.965102 recall 0.925746 mcc 0.944882
+[01:01:33.759] idx 104 case 85 mean_dice 0.912457 mean_hd95 12.197561 iou 0.839008 pre 0.853109 recall 0.980680 mcc 0.913784
+[01:01:33.871] idx 105 case 86 mean_dice 0.952342 mean_hd95 3.000000 iou 0.909019 pre 0.968934 recall 0.936308 mcc 0.952039
+[01:01:33.999] idx 106 case 87 mean_dice 0.845082 mean_hd95 7.000000 iou 0.731724 pre 0.795949 recall 0.900679 mcc 0.845968
+[01:01:34.115] idx 107 case 88 mean_dice 0.935906 mean_hd95 6.016553 iou 0.879533 pre 0.968576 recall 0.905368 mcc 0.934791
+[01:01:34.231] idx 108 case 89 mean_dice 0.887316 mean_hd95 5.000000 iou 0.797456 pre 0.956012 recall 0.827831 mcc 0.888855
+[01:01:34.348] idx 109 case 9 mean_dice 0.863787 mean_hd95 3.000000 iou 0.760234 pre 0.825397 recall 0.905923 mcc 0.864569
+[01:01:34.463] idx 110 case 90 mean_dice 0.942940 mean_hd95 5.000000 iou 0.892040 pre 0.907244 recall 0.981560 mcc 0.943042
+[01:01:34.576] idx 111 case 91 mean_dice 0.744332 mean_hd95 11.664044 iou 0.592777 pre 0.840247 recall 0.668070 mcc 0.748032
+[01:01:34.689] idx 112 case 92 mean_dice 0.847132 mean_hd95 8.636520 iou 0.734805 pre 0.737205 recall 0.995588 mcc 0.855492
+[01:01:34.803] idx 113 case 93 mean_dice 0.786584 mean_hd95 16.306233 iou 0.648240 pre 0.678648 recall 0.935348 mcc 0.794646
+[01:01:34.922] idx 114 case 94 mean_dice 0.849310 mean_hd95 12.159329 iou 0.738087 pre 0.930344 recall 0.781261 mcc 0.849614
+[01:01:35.042] idx 115 case 95 mean_dice 0.872857 mean_hd95 8.009339 iou 0.774398 pre 0.875085 recall 0.870640 mcc 0.871415
+[01:01:35.166] idx 116 case 96 mean_dice 0.900662 mean_hd95 9.000000 iou 0.819277 pre 0.850449 recall 0.957177 mcc 0.900232
+[01:01:35.282] idx 117 case 97 mean_dice 0.848821 mean_hd95 117.023498 iou 0.737349 pre 0.901836 recall 0.801693 mcc 0.847598
+[01:01:35.397] idx 118 case 98 mean_dice 0.881555 mean_hd95 90.994776 iou 0.788197 pre 0.889860 recall 0.873403 mcc 0.879200
+[01:01:35.514] idx 119 case 99 mean_dice 0.570021 mean_hd95 13.024963 iou 0.398622 pre 0.900667 recall 0.416953 mcc 0.610211
+[01:01:35.515] Mean class 1 mean_dice 0.842564 mean_hd95 15.821101 iou 0.755585 pre 0.873507 recall 0.841742 mcc 0.848365
+[01:01:35.515] Testing performance in best val model: mean_dice : 0.842564 mean_hd95 : 15.821101 iou : 0.755585 pre : 0.873507 recall : 0.841742 mcc : 0.848365
